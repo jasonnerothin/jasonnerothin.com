@@ -4,7 +4,7 @@
 
 /** This file is pretty much where we do our DI **/
 
-angular.module('skillcat', ['skillcatFilters', 'skillcatServices']).
+angular.module('skill', ['skillFilters', 'skillServices']).
   config(['$routeProvider', function($routeProvider) {
   $routeProvider.
       when('/skills', {templateUrl: 'partials/skill-list.html',   controller: 'SkillListCtrl'}).
@@ -20,4 +20,4 @@ angular.module('gig', ['gigServices']).
         otherwise({redirectTo: '/skills'});
 }]);
 
-var myApp = angular.module('myApp', ['skillcat','gig'])
+var myApp = angular.module('myApp', ['skill','gig'])

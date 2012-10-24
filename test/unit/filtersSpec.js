@@ -4,7 +4,7 @@
 
 describe('filter', function() {
 
-  beforeEach(module('skillcatFilters'));
+  beforeEach(module('skillFilters'));
 
 
   describe('checkmark', function() {

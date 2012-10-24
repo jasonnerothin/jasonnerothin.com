@@ -1,7 +1,7 @@
 'use strict';
 
 /* jasmine specs for controllers go here */
-describe('SkillCat controllers', function() {
+describe('skill controllers', function() {
 
   beforeEach(function(){
     this.addMatchers({
@@ -12,7 +12,7 @@ describe('SkillCat controllers', function() {
   });
 
 
-  beforeEach(module('skillcatServices'));
+  beforeEach(module('skillServices'));
 
 
   describe('SkillListCtrl', function(){

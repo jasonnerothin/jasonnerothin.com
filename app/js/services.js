@@ -3,7 +3,7 @@
 /* Services */
 
 /* skills */
-angular.module('skillcatServices', ['ngResource']).
+angular.module('skillServices', ['ngResource']).
     factory('Skill', function($resource){
   return $resource('skills/:skillId.json', {}, {
     query: {method:'GET', params:{skillId:'skills'}, isArray:true}

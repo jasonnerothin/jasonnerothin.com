@@ -2,7 +2,7 @@
 
 /* Filters */
 
-angular.module('skillcatFilters', []).filter('checkmark', function() {
+angular.module('skillFilters', []).filter('checkmark', function() {
   return function(input) {
     return input ? '\u2713' : '\u2718';
   };
