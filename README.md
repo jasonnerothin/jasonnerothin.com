@@ -9,8 +9,6 @@ This application has been hi-jacked for jasonnerothin.com.
 ### Node.js
 - Generic [installation instructions][node-generic].
 - Mac DMG [here][node-mac]
-- Windows download from [here][node-windows]. (You will also need [7 Zip] to unzip the node archive)
-  (and don't forget to add `node.exe` to  your executable path)
 
 ### Java
 - http://www.java.com
@@ -132,10 +130,10 @@ based on angular-seed, the instructions apply to it as well.
 
 Requires java.
 
-1. start `./scripts/test-server.sh` (on windows `scripts\test-server.bat`)
+1. start `./scripts/test-server.sh` 
 2. navigate your browser to `http://localhost:9876/`
 3. click on: capture strict link
-4. run `scripts/test.sh` (on windows `scripts\test.bat`)
+4. run `scripts/test.sh` 
 5. edit files in `app/` or `src/` and save them
 6. go to step 4.
 
@@ -198,8 +196,6 @@ info.
 
     scripts/            --> handy shell/js/ruby scripts
       e2e-test.sh       --> runs end-to-end tests with Testacular (*nix)
-      e2e-test.bat      --> runs end-to-end tests with Testacular (windows)
-      test.bat          --> autotests unit tests with Testacular (windows)
       test.sh           --> autotests unit tests with Testacular (*nix)
       web-server.js     --> simple development webserver based on node.js
 
@@ -232,7 +228,6 @@ For more information on AngularJS please check out http://angularjs.org/
 [ng:repeat]: http://docs.angularjs.org/#!angular.widget.@ng:repeat
 [ng:view]: http://docs.angularjs.org/#!angular.widget.ng:view
 [node-mac]: http://code.google.com/p/rudix/downloads/detail?name=node-0.4.0-0.dmg&can=2&q=
-[node-windows]: http://node-js.prcn.co.cc/
 [node-generic]: https://github.com/joyent/node/wiki/Installation
 [java]: http://www.java.com
 [$resource]: http://docs.angularjs.org/#!angular.service.$resource

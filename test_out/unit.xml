@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <testsuites>
-  <testsuite name="Chrome 22.0" package="unit" timestamp="2012-10-24T03:32:42" id="0" hostname="Jasons-MacBook-Air.local" tests="4" errors="0" failures="0" time="0.03">
+  <testsuite name="Chrome 22.0" package="unit" timestamp="2012-10-24T03:58:37" id="0" hostname="Jasons-MacBook-Air.local" tests="4" errors="0" failures="0" time="0.033">
     <properties>
       <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"/>
     </properties>
-    <testcase name="should create &quot;phones&quot; model with 2 phones fetched from xhr" time="0.024" classname="unit Chrome 22.0.PhoneCat controllers PhoneListCtrl"/>
-    <testcase name="should set the default value of orderProp model" time="0.002" classname="unit Chrome 22.0.PhoneCat controllers PhoneListCtrl"/>
-    <testcase name="should fetch phone detail" time="0.002" classname="unit Chrome 22.0.PhoneCat controllers PhoneDetailCtrl"/>
-    <testcase name="should convert boolean values to unicode checkmark or cross" time="0.002" classname="unit Chrome 22.0.filter checkmark"/>
+    <testcase name="should create &quot;phones&quot; model with 2 phones fetched from xhr" time="0.026" classname="unit Chrome 22.0.PhoneCat controllers PhoneListCtrl"/>
+    <testcase name="should set the default value of orderProp model" time="0.003" classname="unit Chrome 22.0.PhoneCat controllers PhoneListCtrl"/>
+    <testcase name="should fetch phone detail" time="0.003" classname="unit Chrome 22.0.PhoneCat controllers PhoneDetailCtrl"/>
+    <testcase name="should convert boolean values to unicode checkmark or cross" time="0.001" classname="unit Chrome 22.0.filter checkmark"/>
     <system-out/>
     <system-err/>
   </testsuite>
