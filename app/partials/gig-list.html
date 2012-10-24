@@ -4,19 +4,14 @@
             <div>
                 <!-- todo: want better markup here -->
                 <a href="#" onclick="alert('bio');">bio</a>&nbsp;|&nbsp;
-                <a style="color:black; text-decoration:underline">skillz</a>&nbsp;|&nbsp;
-                <a href="#" onclick="alert('gigs');">gigs</a>&nbsp;|&nbsp;
+                <a href="#" onclick="alert('mad skillz');">skillz</a>&nbsp;|&nbsp;
+                <a>gigs</a>&nbsp;|&nbsp;
                 <a href="#" onclick="alert('snippets');">portfolio</a>
             </div>
             <div>
                 <!--Sidebar content-->
                 Search: <input ng-model="query">
-                Sort by:
-                <select ng-model="orderProp">
-                    <option value="name">Alphabetical</option>
-                    <option value="age">Newest</option>
-                    <option value="experience" onmouseover="alert('months worth of exp');">Experience</option>
-                </select>
+                <input type="hidden" ng-model="orderProp" value="Newest">
             </div>
         </div>
         <div class="span10">
