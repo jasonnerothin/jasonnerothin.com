@@ -9,7 +9,7 @@ files = [
 autoWatch = false;
 
 browsers = ['Chrome'];
-port=8888
+port=8888;
 singleRun = true;
 
 proxies = {
@@ -20,3 +20,6 @@ junitReporter = {
   outputFile: 'test_out/e2e.xml',
   suite: 'e2e'
 };
+
+reporters = ['dots','junit'];
+

@@ -11,10 +11,12 @@ files = [
 ];
 
 autoWatch = true;
-port = 8888
+port = 8888;
 browsers = ['Chrome'];
 
 junitReporter = {
   outputFile: 'test_out/unit.xml',
   suite: 'unit'
 };
+
+reporters = ['dots','junit'];
