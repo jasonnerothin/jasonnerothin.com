@@ -1,18 +1,10 @@
-# AngularJS Phone Catalog Tutorial Application
+# jasonnerothin.com
 
 ## Overview
 
-This application takes the developer thought the process of building a web-application using
-angular. The application is loosely based on
-[Google phone gallery](http://www.google.com/phone/). Each commit is a separate lesson
-teaching a single aspect of angular.
-
+This application has been hi-jacked for jasonnerothin.com.
 
 ## Prerequisites
-
-### Git
-- A good place to learn about setting up git is [here][git-github]
-- Git [home][git-home] (download, documentation)
 
 ### Node.js
 - Generic [installation instructions][node-generic].
