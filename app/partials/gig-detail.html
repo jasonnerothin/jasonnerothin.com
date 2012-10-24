@@ -1,113 +1,12 @@
-<img ng-src="{{mainImageUrl}}" class="skill">
+<h2>{{gig.title}} &mdash; {{gig.employer}}</h2>
+<h4>{{gig.address}} &nbsp; {{gig.startDate}} to {{gig.stopDate}}</h4>
 
-<h1>{{skill.name}}</h1>
+<p>Description: {{gig.blurb}}</p>
+<p>Results: {{gig.results}}</p>
+<p>Methodology: {{gig.methodology}}</p>
 
-<p>{{skill.description}}</p>
-
-<ul class="skill-thumbs">
-  <li ng-repeat="img in skill.images">
-    <img ng-src="{{img}}" ng-click="setImage(img)">
-  </li>
-</ul>
-
-<ul class="specs">
-  <li>
-    <span>Availability and Networks</span>
-    <dl>
-      <dt>Availability</dt>
-      <dd ng-repeat="availability in skill.availability">{{availability}}</dd>
-    </dl>
-  </li>
-  <li>
-    <span>Battery</span>
-    <dl>
-      <dt>Type</dt>
-      <dd>{{skill.battery.type}}</dd>
-      <dt>Talk Time</dt>
-      <dd>{{skill.battery.talkTime}}</dd>
-      <dt>Standby time (max)</dt>
-      <dd>{{skill.battery.standbyTime}}</dd>
-    </dl>
-  </li>
-  <li>
-    <span>Storage and Memory</span>
-    <dl>
-      <dt>RAM</dt>
-      <dd>{{skill.storage.ram}}</dd>
-      <dt>Internal Storage</dt>
-      <dd>{{skill.storage.flash}}</dd>
-    </dl>
-  </li>
-  <li>
-    <span>Connectivity</span>
-    <dl>
-      <dt>Network Support</dt>
-      <dd>{{skill.connectivity.cell}}</dd>
-      <dt>WiFi</dt>
-      <dd>{{skill.connectivity.wifi}}</dd>
-      <dt>Bluetooth</dt>
-      <dd>{{skill.connectivity.bluetooth}}</dd>
-      <dt>Infrared</dt>
-      <dd>{{skill.connectivity.infrared | checkmark}}</dd>
-      <dt>GPS</dt>
-      <dd>{{skill.connectivity.gps | checkmark}}</dd>
-    </dl>
-  </li>
-  <li>
-    <span>Android</span>
-    <dl>
-      <dt>OS Version</dt>
-      <dd>{{skill.android.os}}</dd>
-      <dt>UI</dt>
-      <dd>{{skill.android.ui}}</dd>
-    </dl>
-  </li>
-  <li>
-    <span>Size and Weigth</span>
-    <dl>
-      <dt>Dimensions</dt>
-      <dd ng-repeat="dim in skill.sizeAndWeight.dimensions">{{dim}}</dd>
-      <dt>Weight</dt>
-      <dd>{{skill.sizeAndWeight.weight}}</dd>
-    </dl>
-  </li>
-  <li>
-    <span>Display</span>
-    <dl>
-      <dt>Screen size</dt>
-      <dd>{{skill.display.screenSize}}</dd>
-      <dt>Screen resolution</dt>
-      <dd>{{skill.display.screenResolution}}</dd>
-      <dt>Touch screen</dt>
-      <dd>{{skill.display.touchScreen | checkmark}}</dd>
-    </dl>
-  </li>
-  <li>
-    <span>Hardware</span>
-    <dl>
-      <dt>CPU</dt>
-      <dd>{{skill.hardware.cpu}}</dd>
-      <dt>USB</dt>
-      <dd>{{skill.hardware.usb}}</dd>
-      <dt>Audio / headphone jack</dt>
-      <dd>{{skill.hardware.audioJack}}</dd>
-      <dt>FM Radio</dt>
-      <dd>{{skill.hardware.fmRadio | checkmark}}</dd>
-      <dt>Accelerometer</dt>
-      <dd>{{skill.hardware.accelerometer | checkmark}}</dd>
-    </dl>
-  </li>
-  <li>
-    <span>Camera</span>
-    <dl>
-      <dt>Primary</dt>
-      <dd>{{skill.camera.primary}}</dd>
-      <dt>Features</dt>
-      <dd>{{skill.camera.features.join(', ')}}</dd>
-    </dl>
-  </li>
-  <li>
-    <span>Additional Features</span>
-    <dd>{{skill.additionalFeatures}}</dd>
-  </li>
+<ul class="skills">
+    <li ng-repeat="skill in gig.skills" class="thumbnail">
+        <a>{{skill.skillId}}</a> | categories: {<span ng-repeat="category in skill.categories">{{category}}</span>}
+    </li>
 </ul>

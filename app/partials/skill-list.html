@@ -1,21 +1,21 @@
 <div class="container-fluid">
     <div class="row-fluid">
         <div class="container span2">
+            <!--Sidebar content-->
             <div>
                 <!-- todo: want better markup here -->
                 <a href="#" onclick="alert('bio');">bio</a>&nbsp;|&nbsp;
-                <a style="color:black; text-decoration:underline">skillz</a>&nbsp;|&nbsp;
-                <a href="#" onclick="alert('gigs');">gigs</a>&nbsp;|&nbsp;
+                <a style="color:black; text-decoration:underline">skills</a>&nbsp;|&nbsp;
+                <a href="#/gigs">gigs</a>&nbsp;|&nbsp;
                 <a href="#" onclick="alert('snippets');">portfolio</a>
             </div>
             <div>
-                <!--Sidebar content-->
                 Search: <input ng-model="query">
                 Sort by:
                 <select ng-model="orderProp">
                     <option value="name">Alphabetical</option>
                     <option value="age">Newest</option>
-                    <option value="experience" onmouseover="alert('months worth of exp');">Experience</option>
+                    <option value="time">Experience</option>
                 </select>
             </div>
         </div>
@@ -26,7 +26,6 @@
                 <li ng-repeat="skill in skills | filter:query | orderBy:orderProp" class="thumbnail">
                     <a href="#/skills/{{skill.id}}" class="thumb"><img ng-src="{{skill.imageUrl}}"></a>
                     <a href="#/skills/{{skill.id}}">{{skill.name}}</a>
-
                     <p>{{skill.snippet}}</p>
                 </li>
             </ul>

@@ -1,0 +1,105 @@
+{
+    "gigId":"pharmacy-onesource",
+    "title":"Senior Developer & Independent Contractor",
+    "employer":"Pharmacy Onesource, Inc.",
+    "address":"Middleton, WI",
+    "methodology":"agile",
+    "blurb":"Developed an XML to DRL transpiler that takes legacy SQL-driven business rule metadata and submits it to a massively-parallel rule engine through a Spring web service. Produced functionality for message processing system that is responsible for processing messages from hospital data feeds (HL7).",
+    "results":"&gt;$10M decrease in ongoing operating costs",
+    "skills":[
+        {
+            "skillId":"SQL Server",
+            "categories":["databases"]
+        },
+        {
+            "skillId":"Drools",
+            "categories":["programming languages", "special purpose languages"]
+        },
+        {
+            "skillId":"Spring",
+            "categories":["stacks"]
+        },
+        {
+            "skillId":"GigaSpaces",
+            "categories":["stacks", "cloud", "grid"]
+        },
+        {
+            "skillId":"java",
+            "categories":["programming language"]
+        },
+        {
+            "skillId":"C#",
+            "categories":["programming languages"]
+        },
+        {
+            "skillId":".Net",
+            "categories":["stacks"]
+        },
+        {
+            "skillId":"Visual Studio",
+            "categories":["tools"]
+        },
+        {
+            "skillId":"IntelliJ Idea",
+            "categories":["tools"]
+        },
+        {
+            "skillId":"svn",
+            "categories":["tools"]
+        },
+        {
+            "skillId":"git",
+            "categories":["tools"]
+        },
+        {
+            "skillId":"maven",
+            "categories":["continuous integration", "tools"]
+        },
+        {
+            "skillId":"jenkins",
+            "categories":["continuous integration", "tools"]
+        },
+        {
+            "skillId":"SQL Server Mgt Studio",
+            "categories":["tools"]
+        },
+        {
+            "skillId":"groovy",
+            "categories":["programming languages"]
+        },
+        {
+            "skillId":"Windows 7",
+            "categories":["operating systems"]
+        },
+        {
+            "skillId":"Windows Server 2003",
+            "categories":["operating systems"]
+        },
+        {
+            "skillId":"Linux Mint",
+            "categories":["operating systems"]
+        },
+        {
+            "skillId":"OS X",
+            "categories":["operating systems"]
+        },
+        {
+            "skillId":"SOLID code",
+            "categories":["philosophies"]
+        },
+        {
+            "skillId":"Spring WS",
+            "categories":["webservices","design patterns"]
+        },
+        {
+            "skillId":"WCF",
+            "categories":["webservices"]
+        },
+        {
+            "skillId":"TDD (test first)",
+            "categories":["philosophies"]
+        }
+    ],
+    "startDate": "Aug 2010",
+    "endDate": null
+}

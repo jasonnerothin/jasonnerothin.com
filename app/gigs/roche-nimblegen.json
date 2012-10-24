@@ -1,0 +1,77 @@
+{
+    "gigId":"roche-nimblegen",
+    "title":"Software Engineer",
+    "employer":"Roche Nimblegen, Inc.",
+    "address":"Madison, WI",
+    "methodology":"waterfall",
+    "blurb":"Delivered core functionality for DIVA, a desktop application for analysis of DNA micro-array results. Wrote a binary data engine capable of IO sufficient to power statistical analyses in R for both 32- and 64-bit architectures.",
+    "results":"Delivered.",
+    "skills":[
+        {
+            "skillId":"java",
+            "categories":["programming languages"]
+        },
+        {
+            "skillId":"R",
+            "categories":["programming languages", "special purpose languages"]
+        },
+        {
+            "skillId":"derby",
+            "categories":["databases"]
+        },
+        {
+            "skillId":"jython",
+            "categories":["programming language"]
+        },
+        {
+            "skillId":"active record",
+            "categories":["design patterns"]
+        },
+        {
+            "skillId":"ruby",
+            "categories":["programming languages"]
+        },
+        {
+            "skillId":"ruby on rails",
+            "categories":["stacks"]
+        },
+        {
+            "skillId":"IntelliJ Idea",
+            "categories":["tools"]
+        },
+        {
+            "skillId":"Netbeans",
+            "categories":["tools"]
+        },
+        {
+            "skillId":"svn",
+            "categories":["tools"]
+        },
+        {
+            "skillId":"cvs",
+            "categories":["tools"]
+        },
+        {
+            "skillId":"ant",
+            "categories":["tools"]
+        },
+        {
+            "skillId":"lucene",
+            "categories":["stacks"]
+        },
+        {
+            "skillId":"Spring",
+            "categories":["tools","design patterns"]
+        },
+        {
+            "skillId":"bioinformatics",
+            "categories":["science & math"]
+        },
+        {
+            "skillId":"statistics",
+            "categories":["science & math"]
+        }
+    ],
+    "startDate": "Mar 2008",
+    "endDate": "Aug 2010"
+}
