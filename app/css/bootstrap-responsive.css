@@ -45,7 +45,7 @@
   visibility: hidden;
 }
 
-.visible-phone {
+.visible-skill {
   display: none !important;
 }
 
@@ -58,10 +58,10 @@
 }
 
 @media (max-width: 767px) {
-  .visible-phone {
+  .visible-skill {
     display: inherit !important;
   }
-  .hidden-phone {
+  .hidden-skill {
     display: none !important;
   }
   .hidden-desktop {

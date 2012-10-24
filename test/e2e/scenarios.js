@@ -2,78 +2,78 @@
 
 /* http://docs.angularjs.org/guide/dev_guide.e2e-testing */
 
-describe('PhoneCat App', function() {
+describe('SkillCat App', function() {
 
-  it('should redirect index.html to index.html#/phones', function() {
+  it('should redirect index.html to index.html#/skills', function() {
     browser().navigateTo('../../app/index.html');
-    expect(browser().location().url()).toBe('/phones');
+    expect(browser().location().url()).toBe('/skills');
   });
 
 
-  describe('Phone list view', function() {
+  describe('Skill list view', function() {
 
     beforeEach(function() {
-      browser().navigateTo('../../app/index.html#/phones');
+      browser().navigateTo('../../app/index.html#/skills');
     });
 
 
-    it('should filter the phone list as user types into the search box', function() {
-      expect(repeater('.phones li').count()).toBe(20);
+    it('should filter the skill list as user types into the search box', function() {
+      expect(repeater('.skills li').count()).toBe(20);
 
       input('query').enter('nexus');
-      expect(repeater('.phones li').count()).toBe(1);
+      expect(repeater('.skills li').count()).toBe(1);
 
       input('query').enter('motorola');
-      expect(repeater('.phones li').count()).toBe(8);
+      expect(repeater('.skills li').count()).toBe(8);
     });
 
 
-    it('should be possible to control phone order via the drop down select box', function() {
+    it('should be possible to control skill order via the drop down select box', function() {
       input('query').enter('tablet'); //let's narrow the dataset to make the test assertions shorter
 
-      expect(repeater('.phones li', 'Phone List').column('phone.name')).
+      expect(repeater('.skills li', 'Skill List').column('skill.name')).
           toEqual(["Motorola XOOM\u2122 with Wi-Fi",
                    "MOTOROLA XOOM\u2122"]);
 
       select('orderProp').option('Alphabetical');
 
-      expect(repeater('.phones li', 'Phone List').column('phone.name')).
+      expect(repeater('.skills li', 'Skill List').column('skill.name')).
           toEqual(["MOTOROLA XOOM\u2122",
                    "Motorola XOOM\u2122 with Wi-Fi"]);
     });
 
 
-    it('should render phone specific links', function() {
+    it('should render skill specific links', function() {
       input('query').enter('nexus');
-      element('.phones li a').click();
-      expect(browser().location().url()).toBe('/phones/nexus-s');
+      element('.skills li a').click();
+      expect(browser().location().url()).toBe('/skills/nexus-s');
     });
   });
 
 
-  describe('Phone detail view', function() {
+  describe('Skill detail view', function() {
 
     beforeEach(function() {
-      browser().navigateTo('../../app/index.html#/phones/nexus-s');
+      browser().navigateTo('../../app/index.html#/skills/nexus-s');
     });
 
 
     it('should display nexus-s page', function() {
-      expect(binding('phone.name')).toBe('Nexus S');
+      expect(binding('skill.name')).toBe('Nexus S');
     });
 
 
-    it('should display the first phone image as the main phone image', function() {
-      expect(element('img.phone').attr('src')).toBe('img/phones/nexus-s.0.jpg');
+    it('should display the first skill image as the main skill image', function() {
+      expect(element('img.skill').attr('src')).toBe('img/skills/nexus-s.0.jpg');
     });
 
 
     it('should swap main image if a thumbnail image is clicked on', function() {
-      element('.phone-thumbs li:nth-child(3) img').click();
-      expect(element('img.phone').attr('src')).toBe('img/phones/nexus-s.2.jpg');
+      element('.skill-thumbs li:nth-child(3) img').click();
+      expect(element('img.skill').attr('src')).toBe('img/skills/nexus-s.2.jpg');
 
-      element('.phone-thumbs li:nth-child(1) img').click();
-      expect(element('img.phone').attr('src')).toBe('img/phones/nexus-s.0.jpg');
+      element('.skill-thumbs li:nth-child(1) img').click();
+      expect(element('img.skill').attr('src')).toBe('img/skills/nexus-s.0.jpg');
     });
   });
 });

@@ -2,18 +2,18 @@
 
 /* Controllers */
 
-function PhoneListCtrl($scope, Phone) {
-  $scope.phones = Phone.query();
+function SkillListCtrl($scope, Skill) {
+  $scope.skills = Skill.query();
   $scope.orderProp = 'age';
 }
 
-//PhoneListCtrl.$inject = ['$scope', 'Phone'];
+//SkillListCtrl.$inject = ['$scope', 'Skill'];
 
 
 
-function PhoneDetailCtrl($scope, $routeParams, Phone) {
-  $scope.phone = Phone.get({phoneId: $routeParams.phoneId}, function(phone) {
-    $scope.mainImageUrl = phone.images[0];
+function SkillDetailCtrl($scope, $routeParams, Skill) {
+  $scope.skill = Skill.get({skillId: $routeParams.skillId}, function(skill) {
+    $scope.mainImageUrl = skill.images[0];
   });
 
   $scope.setImage = function(imageUrl) {
@@ -21,4 +21,4 @@ function PhoneDetailCtrl($scope, $routeParams, Phone) {
   }
 }
 
-//PhoneDetailCtrl.$inject = ['$scope', '$routeParams', 'Phone'];
+//SkillDetailCtrl.$inject = ['$scope', '$routeParams', 'Skill'];

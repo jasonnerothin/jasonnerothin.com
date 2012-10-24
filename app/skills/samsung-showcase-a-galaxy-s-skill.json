@@ -40,13 +40,13 @@
         "physicalKeyboard": false, 
         "usb": "USB 2.0"
     }, 
-    "id": "samsung-showcase-a-galaxy-s-phone", 
+    "id": "samsung-showcase-a-galaxy-s-skill",
     "images": [
-        "img/phones/samsung-showcase-a-galaxy-s-phone.0.jpg", 
-        "img/phones/samsung-showcase-a-galaxy-s-phone.1.jpg", 
-        "img/phones/samsung-showcase-a-galaxy-s-phone.2.jpg"
+        "img/skills/samsung-showcase-a-galaxy-s-skill.0.jpg",
+        "img/skills/samsung-showcase-a-galaxy-s-skill.1.jpg",
+        "img/skills/samsung-showcase-a-galaxy-s-skill.2.jpg"
     ], 
-    "name": "Samsung Showcase\u2122 a Galaxy S\u2122 phone", 
+    "name": "Samsung Showcase\u2122 a Galaxy S\u2122 skill",
     "sizeAndWeight": {
         "dimensions": [
             "64.2 mm (w)", 

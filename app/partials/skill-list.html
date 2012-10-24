@@ -21,12 +21,12 @@
         <div class="span10">
             <!--Body content-->
 
-            <ul class="phones">
-                <li ng-repeat="phone in phones | filter:query | orderBy:orderProp" class="thumbnail">
-                    <a href="#/phones/{{phone.id}}" class="thumb"><img ng-src="{{phone.imageUrl}}"></a>
-                    <a href="#/phones/{{phone.id}}">{{phone.name}}</a>
+            <ul class="skills">
+                <li ng-repeat="skill in skills | filter:query | orderBy:orderProp" class="thumbnail">
+                    <a href="#/skills/{{skill.id}}" class="thumb"><img ng-src="{{skill.imageUrl}}"></a>
+                    <a href="#/skills/{{skill.id}}">{{skill.name}}</a>
 
-                    <p>{{phone.snippet}}</p>
+                    <p>{{skill.snippet}}</p>
                 </li>
             </ul>
 

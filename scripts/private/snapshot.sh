@@ -25,12 +25,12 @@ do
     cp -r test/unit test/e2e $SNAP_DIR/step-$i/test
     rm -r $SNAP_DIR/step-$i/app/img
     rm -r $SNAP_DIR/step-$i/app/lib
-    rm -rf $SNAP_DIR/step-$i/app/phones
+    rm -rf $SNAP_DIR/step-$i/app/skills
   fi
 
   if [[ $i = 5 ]]; then
     cp -r app/img $SNAP_DIR/step-0/app/
-    cp -r app/phones $SNAP_DIR/step-0/app/
+    cp -r app/skills $SNAP_DIR/step-0/app/
   fi
 done
 

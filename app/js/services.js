@@ -2,9 +2,9 @@
 
 /* Services */
 
-angular.module('phonecatServices', ['ngResource']).
-    factory('Phone', function($resource){
-  return $resource('phones/:phoneId.json', {}, {
-    query: {method:'GET', params:{phoneId:'phones'}, isArray:true}
+angular.module('skillcatServices', ['ngResource']).
+    factory('Skill', function($resource){
+  return $resource('skills/:skillId.json', {}, {
+    query: {method:'GET', params:{skillId:'skills'}, isArray:true}
   });
 });

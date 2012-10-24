@@ -31,7 +31,7 @@ function createServlet(Class) {
  * An Http server implementation that uses a map of methods to decide
  * action routing.
  *
- * @param {Object} Map of method => Handler function
+ * @param {Object} handlers Map of method => Handler function
  */
 function HttpServer(handlers) {
   this.handlers = handlers;
@@ -100,7 +100,7 @@ StaticServlet.prototype.handleRequest = function(req, res) {
       return self.sendDirectory_(req, res, path);
     return self.sendFile_(req, res, path);
   });
-}
+};
 
 StaticServlet.prototype.sendError_ = function(req, res, error) {
   res.writeHead(500, {

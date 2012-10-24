@@ -1,7 +1,7 @@
 'use strict';
 
 /* jasmine specs for controllers go here */
-describe('PhoneCat controllers', function() {
+describe('SkillCat controllers', function() {
 
   beforeEach(function(){
     this.addMatchers({
@@ -12,27 +12,27 @@ describe('PhoneCat controllers', function() {
   });
 
 
-  beforeEach(module('phonecatServices'));
+  beforeEach(module('skillcatServices'));
 
 
-  describe('PhoneListCtrl', function(){
+  describe('SkillListCtrl', function(){
     var scope, ctrl, $httpBackend;
 
     beforeEach(inject(function(_$httpBackend_, $rootScope, $controller) {
       $httpBackend = _$httpBackend_;
-      $httpBackend.expectGET('phones/phones.json').
+      $httpBackend.expectGET('skills/skills.json').
           respond([{name: 'Nexus S'}, {name: 'Motorola DROID'}]);
 
       scope = $rootScope.$new();
-      ctrl = $controller(PhoneListCtrl, {$scope: scope});
+      ctrl = $controller(SkillListCtrl, {$scope: scope});
     }));
 
 
-    it('should create "phones" model with 2 phones fetched from xhr', function() {
-      expect(scope.phones).toEqual([]);
+    it('should create "skills" model with 2 skills fetched from xhr', function() {
+      expect(scope.skills).toEqual([]);
       $httpBackend.flush();
 
-      expect(scope.phones).toEqualData(
+      expect(scope.skills).toEqualData(
           [{name: 'Nexus S'}, {name: 'Motorola DROID'}]);
     });
 
@@ -43,11 +43,11 @@ describe('PhoneCat controllers', function() {
   });
 
 
-  describe('PhoneDetailCtrl', function(){
+  describe('SkillDetailCtrl', function(){
     var scope, $httpBackend, ctrl,
-        xyzPhoneData = function() {
+        xyzSkillData = function() {
           return {
-            name: 'phone xyz',
+            name: 'skill xyz',
                 images: ['image/url1.png', 'image/url2.png']
           }
         };
@@ -55,19 +55,19 @@ describe('PhoneCat controllers', function() {
 
     beforeEach(inject(function(_$httpBackend_, $rootScope, $routeParams, $controller) {
       $httpBackend = _$httpBackend_;
-      $httpBackend.expectGET('phones/xyz.json').respond(xyzPhoneData());
+      $httpBackend.expectGET('skills/xyz.json').respond(xyzSkillData());
 
-      $routeParams.phoneId = 'xyz';
+      $routeParams.skillId = 'xyz';
       scope = $rootScope.$new();
-      ctrl = $controller(PhoneDetailCtrl, {$scope: scope});
+      ctrl = $controller(SkillDetailCtrl, {$scope: scope});
     }));
 
 
-    it('should fetch phone detail', function() {
-      expect(scope.phone).toEqualData({});
+    it('should fetch skill detail', function() {
+      expect(scope.skill).toEqualData({});
       $httpBackend.flush();
 
-      expect(scope.phone).toEqualData(xyzPhoneData());
+      expect(scope.skill).toEqualData(xyzSkillData());
     });
   });
 });
