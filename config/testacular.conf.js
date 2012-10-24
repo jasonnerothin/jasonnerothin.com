@@ -11,7 +11,7 @@ files = [
 ];
 
 autoWatch = true;
-
+port = 8888
 browsers = ['Chrome'];
 
 junitReporter = {

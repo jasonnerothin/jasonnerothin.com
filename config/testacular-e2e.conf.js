@@ -9,7 +9,7 @@ files = [
 autoWatch = false;
 
 browsers = ['Chrome'];
-
+port=8888
 singleRun = true;
 
 proxies = {
