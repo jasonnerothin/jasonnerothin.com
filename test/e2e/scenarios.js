@@ -18,62 +18,53 @@ describe('skill App', function() {
 
 
     it('should filter the skill list as user types into the search box', function() {
-      expect(repeater('.skills li').count()).toBe(20);
+      expect(repeater('.skills li').count()).toBe(47);
 
-      input('query').enter('nexus');
+      input('query').enter('scala');
+      expect(repeater('.skills li').count()).toBe(2);
+
+        input('query').enter('scalab');
       expect(repeater('.skills li').count()).toBe(1);
 
-      input('query').enter('motorola');
+      input('query').enter('web');
       expect(repeater('.skills li').count()).toBe(8);
     });
 
 
     it('should be possible to control skill order via the drop down select box', function() {
-      input('query').enter('tablet'); //let's narrow the dataset to make the test assertions shorter
+      input('query').enter('proto'); //let's narrow the dataset to make the test assertions shorter
 
-      expect(repeater('.skills li', 'Skill List').column('skill.name')).
-          toEqual(["Motorola XOOM\u2122 with Wi-Fi",
-                   "MOTOROLA XOOM\u2122"]);
+      expect(repeater('.skills li', 'Skill List').column('skill.skillName')).
+          toEqual(["prototype.js"]);
 
       select('orderProp').option('Alphabetical');
 
-      expect(repeater('.skills li', 'Skill List').column('skill.name')).
-          toEqual(["MOTOROLA XOOM\u2122",
-                   "Motorola XOOM\u2122 with Wi-Fi"]);
+      input('query').enter('java'); // programming languages, for example
+
+      expect(repeater('.skills li', 'Skill List').column('skill.skillName')).
+          toEqual(["JavaScript", "java"]);
     });
 
 
     it('should render skill specific links', function() {
-      input('query').enter('nexus');
+      input('query').enter('javas');
       element('.skills li a').click();
-      expect(browser().location().url()).toBe('/skills/nexus-s');
+      expect(browser().location().url()).toBe('/skills/javascript');
     });
+
   });
 
 
   describe('Skill detail view', function() {
 
     beforeEach(function() {
-      browser().navigateTo('../../app/index.html#/skills/nexus-s');
+      browser().navigateTo('../../app/index.html#/skills/amazon-ec2');
     });
 
 
-    it('should display nexus-s page', function() {
-      expect(binding('skill.name')).toBe('Nexus S');
+    it('should display amazon-ec2 page', function() {
+      expect(binding('skill.skillId')).toBe('Amazon Elastic Compute Cloud');
     });
 
-
-    it('should display the first skill image as the main skill image', function() {
-      expect(element('img.skill').attr('src')).toBe('img/skills/nexus-s.0.jpg');
-    });
-
-
-    it('should swap main image if a thumbnail image is clicked on', function() {
-      element('.skill-thumbs li:nth-child(3) img').click();
-      expect(element('img.skill').attr('src')).toBe('img/skills/nexus-s.2.jpg');
-
-      element('.skill-thumbs li:nth-child(1) img').click();
-      expect(element('img.skill').attr('src')).toBe('img/skills/nexus-s.0.jpg');
-    });
   });
 });

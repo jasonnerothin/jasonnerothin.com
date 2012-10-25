@@ -8,95 +8,118 @@
     "results":"&gt;$10M decrease in ongoing operating costs",
     "skills":[
         {
-            "skillId":"SQL Server",
+            "skillId":"sql-server",
+            "skillName":"SQL Server",
             "categories":["databases"]
         },
         {
-            "skillId":"Drools",
+            "skillId":"drools",
+            "skillName":"Drools",
             "categories":["programming languages", "special purpose languages"]
         },
         {
-            "skillId":"Spring",
+            "skillId":"spring",
+            "skillName":"Spring",
             "categories":["stacks"]
         },
         {
-            "skillId":"GigaSpaces",
+            "skillId":"gigaspaces",
+            "skillName":"GigaSpaces",
             "categories":["stacks", "cloud", "grid"]
         },
         {
             "skillId":"java",
-            "categories":["programming language"]
-        },
-        {
-            "skillId":"C#",
+            "skillName":"java",
             "categories":["programming languages"]
         },
         {
-            "skillId":".Net",
+            "skillId":"c-sharp",
+            "skillName":"C#",
+            "categories":["programming languages"]
+        },
+        {
+            "skillId":"dot-net",
+            "skillName":".Net",
             "categories":["stacks"]
         },
         {
-            "skillId":"Visual Studio",
+            "skillId":"visual-studio",
+            "skillName":"Visual Studio",
             "categories":["tools"]
         },
         {
-            "skillId":"IntelliJ Idea",
+            "skillId":"intellij-idea",
+            "skillName":"IntelliJ Idea",
             "categories":["tools"]
         },
         {
             "skillId":"svn",
+            "skillName":"svn",
             "categories":["tools"]
         },
         {
             "skillId":"git",
-            "categories":["tools"]
+            "skillName":"git",
+            "categories":["tools","hobbies"]
         },
         {
             "skillId":"maven",
+            "skillName":"maven",
             "categories":["continuous integration", "tools"]
         },
         {
             "skillId":"jenkins",
+            "skillName":"Jenkins",
             "categories":["continuous integration", "tools"]
         },
         {
-            "skillId":"SQL Server Mgt Studio",
+            "skillId":"sql-server-mgt-studio",
+            "skillName":"SQL Server Mgt Studio",
             "categories":["tools"]
         },
         {
             "skillId":"groovy",
+            "skillName":"groovy",
             "categories":["programming languages"]
         },
         {
-            "skillId":"Windows 7",
+            "skillId":"windows-7",
+            "skillName":"Windows 7",
             "categories":["operating systems"]
         },
         {
-            "skillId":"Windows Server 2003",
+            "skillId":"windows-server-2003",
+            "skillName":"Windows Server 2003",
             "categories":["operating systems"]
         },
         {
             "skillId":"Linux Mint",
+            "skillName":"linux-mint",
             "categories":["operating systems"]
         },
         {
-            "skillId":"OS X",
+            "skillId":"os-x",
+            "skillName":"OS X",
             "categories":["operating systems"]
         },
         {
-            "skillId":"SOLID code",
+            "skillId":"solid-code",
+            "skillName":"SOLID code",
             "categories":["philosophies"]
         },
         {
-            "skillId":"Spring WS",
+            "skillId":"spring-ws",
+            "skillName":"Spring WS",
             "categories":["webservices","design patterns"]
         },
         {
-            "skillId":"WCF",
-            "categories":["webservices"]
+            "skillId":"wcf",
+            "skillName":"Windows Connection Framework",
+            "categories":["webservices","web","stack"]
         },
         {
-            "skillId":"TDD (test first)",
+            "skillId":"tdd-test-first",
+            "skillName":"TDD (test first)",
             "categories":["philosophies"]
         }
     ],

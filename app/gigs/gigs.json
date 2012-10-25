@@ -1,16 +1,23 @@
 [
     {
+        "gigId":"jasonnerothin.com",
+        "title":"webmaster",
+        "employer":"jasonnerothin.com",
+        "blurb":"Developed this website, and put it up on EC2.",
+        "age":0
+    },
+    {
         "gigId":"pharmacy-onesource",
         "title":"Senior Developer & Independent Consultant",
         "employer":"Pharmacy Onesource, Inc.",
         "blurb":"Developed an XML to DRL transpiler that takes legacy SQL-driven business rule metadata and submits it to a massively-parallel rule engine through a Spring web service. Produced functionality for message processing system that is responsible for processing messages from hospital data feeds (HL7).",
-        "age":0
+        "age":1
     },
     {
         "gigId":"roche-nimblegen",
         "title":"Software Engineer",
         "employer":"Roche Nimblegen, Inc.",
         "blurb":"Delivered core functionality for DIVA, a desktop application for analysis of DNA micro-array results. Wrote a binary data engine capable of IO sufficient to power statistical analyses in R for both 32- and 64-bit architectures.",
-        "age":1
+        "age":2
     }
 ]

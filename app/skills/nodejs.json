@@ -1,0 +1,7 @@
+{
+    "skillName": "Node.js",
+    "skillId": "nodejs",
+    "categories": ["stacks","web"],
+    "gigs":[{"gigId":"jasonnerothin.com"}],
+    "experience":7
+}

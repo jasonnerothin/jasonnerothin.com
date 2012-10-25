@@ -14,19 +14,16 @@
                 Sort by:
                 <select ng-model="orderProp">
                     <option value="name">Alphabetical</option>
-                    <option value="age">Newest</option>
-                    <option value="time">Experience</option>
+                    <option value="recentness">Newest</option>
+                    <option value="experience">Experience</option>
                 </select>
             </div>
         </div>
         <div class="span10">
             <!--Body content-->
-
             <ul class="skills">
-                <li ng-repeat="skill in skills | filter:query | orderBy:orderProp" class="thumbnail">
-                    <a href="#/skills/{{skill.id}}" class="thumb"><img ng-src="{{skill.imageUrl}}"></a>
-                    <a href="#/skills/{{skill.id}}">{{skill.name}}</a>
-                    <p>{{skill.snippet}}</p>
+                <li ng-repeat="skill in skills | filter:query | orderBy:orderProp">
+                    <a href="#/skills/{{skill.skillId}}">{{skill.skillName}}</a>
                 </li>
             </ul>
 

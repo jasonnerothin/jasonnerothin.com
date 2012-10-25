@@ -7,6 +7,6 @@
 
 <ul class="skills">
     <li ng-repeat="skill in gig.skills" class="thumbnail">
-        <a>{{skill.skillId}}</a> | categories: {<span ng-repeat="category in skill.categories">{{category}}</span>}
+        <a href="#/skills/{{skill.skillId}}">{{skill.skillName}}</a> | categories: {<span ng-repeat="category in skill.categories">{{category}}</span>}
     </li>
 </ul>

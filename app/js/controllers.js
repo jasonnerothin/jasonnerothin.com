@@ -11,12 +11,12 @@ function SkillListCtrl($scope, Skill) {
 
 function SkillDetailCtrl($scope, $routeParams, Skill) {
   $scope.skill = Skill.get({skillId: $routeParams.skillId}, function(skill) {
-    $scope.mainImageUrl = skill.images[0];
+    $scope.skillName = skill.skillName;
+    $scope.skillId = skill.skillId;
+    $scope.experience = skill.experience;
+    $scope.gigs = skill.gigs;
+    $scope.categories = skill.categories;
   });
-
-  $scope.setImage = function(imageUrl) {
-    $scope.mainImageUrl = imageUrl;
-  }
 }
 //SkillDetailCtrl.$inject = ['$scope', '$routeParams', 'Skill'];
 
@@ -24,7 +24,7 @@ function SkillDetailCtrl($scope, $routeParams, Skill) {
 /* About the great gigs I've worked... */
 function GigListCtrl($scope, Gig){
     $scope.gigs = Gig.query();
-    $scope.orderProp = 'time';
+    $scope.orderProp = 'name';
 }
 //GigListCtrl.$inject = ['$scope', '$routeParams', 'Gig'];
 function GigDetailCtrl($scope, $routeParams, Gig){

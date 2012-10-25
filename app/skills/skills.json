@@ -1,155 +1,237 @@
 [
     {
-        "age": 0, 
-        "id": "motorola-xoom-with-wi-fi", 
-        "imageUrl": "img/skills/motorola-xoom-with-wi-fi.0.jpg",
-        "name": "Motorola XOOM\u2122 with Wi-Fi", 
-        "snippet": "The Next, Next Generation\r\n\r\nExperience the future with Motorola XOOM with Wi-Fi, the world's first tablet powered by Android 3.0 (Honeycomb)."
-    }, 
+        "skillId": "angularjs",
+        "skillName": "angular.js",
+        "categories": ["stacks", "web"]
+    },
     {
-        "age": 1, 
-        "id": "motorola-xoom", 
-        "imageUrl": "img/skills/motorola-xoom.0.jpg",
-        "name": "MOTOROLA XOOM\u2122", 
-        "snippet": "The Next, Next Generation\n\nExperience the future with MOTOROLA XOOM, the world's first tablet powered by Android 3.0 (Honeycomb)."
-    }, 
+        "skillName": "script.aculo.us",
+        "skillId": "scriptaculous",
+        "categories": ["stacks", "web"]
+    },
     {
-        "age": 2, 
-        "carrier": "AT&amp;T", 
-        "id": "motorola-atrix-4g", 
-        "imageUrl": "img/skills/motorola-atrix-4g.0.jpg",
-        "name": "MOTOROLA ATRIX\u2122 4G", 
-        "snippet": "MOTOROLA ATRIX 4G the world's most powerful smartskill."
-    }, 
+        "skillName": "prototype.js",
+        "skillId": "prototype.js",
+        "categories": ["stacks", "web"]
+    },
     {
-        "age": 3, 
-        "id": "dell-streak-7", 
-        "imageUrl": "img/skills/dell-streak-7.0.jpg",
-        "name": "Dell Streak 7", 
-        "snippet": "Introducing Dell\u2122 Streak 7. Share photos, videos and movies together. It\u2019s small enough to carry around, big enough to gather around."
-    }, 
+        "skillName": "Active Record",
+        "skillId": "active-record",
+        "categories": ["design patterns"]
+    },
     {
-        "age": 4, 
-        "carrier": "Cellular South", 
-        "id": "samsung-gem", 
-        "imageUrl": "img/skills/samsung-gem.0.jpg",
-        "name": "Samsung Gem\u2122", 
-        "snippet": "The Samsung Gem\u2122 brings you everything that you would expect and more from a touch display smart skill \u2013 more apps, more features and a more affordable price."
-    }, 
+        "skillName": "Ant",
+        "skillId": "ant",
+        "categories": ["tools"]
+    },
     {
-        "age": 5, 
-        "carrier": "Dell", 
-        "id": "dell-venue", 
-        "imageUrl": "img/skills/dell-venue.0.jpg",
-        "name": "Dell Venue", 
-        "snippet": "The Dell Venue; Your Personal Express Lane to Everything"
-    }, 
+        "skillName": "bioinformatics",
+        "skillId": "bioinformatics",
+        "categories": ["science & math"]
+    },
     {
-        "age": 6, 
-        "carrier": "Best Buy", 
-        "id": "nexus-s", 
-        "imageUrl": "img/skills/nexus-s.0.jpg",
-        "name": "Nexus S", 
-        "snippet": "Fast just got faster with Nexus S. A pure Google experience, Nexus S is the first skill to run Gingerbread (Android 2.3), the fastest version of Android yet."
-    }, 
+        "skillName": "C#",
+        "skillId": "c-sharp",
+        "categories": ["programming languages"]
+    },
     {
-        "age": 7, 
-        "carrier": "Cellular South", 
-        "id": "lg-axis", 
-        "imageUrl": "img/skills/lg-axis.0.jpg",
-        "name": "LG Axis", 
-        "snippet": "Android Powered, Google Maps Navigation, 5 Customizable Home Screens"
-    }, 
+        "skillName": "CVS",
+        "skillId": "cvs",
+        "categories": ["tools"]
+    },
     {
-        "age": 8, 
-        "id": "samsung-galaxy-tab", 
-        "imageUrl": "img/skills/samsung-galaxy-tab.0.jpg",
-        "name": "Samsung Galaxy Tab\u2122", 
-        "snippet": "Feel Free to Tab\u2122. The Samsung Galaxy Tab\u2122 brings you an ultra-mobile entertainment experience through its 7\u201d display, high-power processor and Adobe\u00ae Flash\u00ae Player compatibility."
-    }, 
+        "skillName": "Node.js",
+        "skillId": "nodejs",
+        "categories": ["stacks","web"]
+    },
     {
-        "age": 9, 
-        "carrier": "Cellular South", 
-        "id": "samsung-showcase-a-galaxy-s-skill",
-        "imageUrl": "img/skills/samsung-showcase-a-galaxy-s-skill.0.jpg",
-        "name": "Samsung Showcase\u2122 a Galaxy S\u2122 skill",
-        "snippet": "The Samsung Showcase\u2122 delivers a cinema quality experience like you\u2019ve never seen before. Its innovative 4\u201d touch display technology provides rich picture brilliance, even outdoors"
-    }, 
+        "skillName": "JavaScript",
+        "skillId": "javascript",
+        "categories": ["programming languages","web"]
+    },
     {
-        "age": 10, 
-        "carrier": "Verizon", 
-        "id": "droid-2-global-by-motorola", 
-        "imageUrl": "img/skills/droid-2-global-by-motorola.0.jpg",
-        "name": "DROID\u2122 2 Global by Motorola", 
-        "snippet": "The first smartskill with a 1.2 GHz processor and global capabilities."
-    }, 
+        "skillName": "Derby",
+        "skillId": "derby",
+        "categories": ["databases"]
+    },
     {
-        "age": 11, 
-        "carrier": "Verizon", 
-        "id": "droid-pro-by-motorola", 
-        "imageUrl": "img/skills/droid-pro-by-motorola.0.jpg",
-        "name": "DROID\u2122 Pro by Motorola", 
-        "snippet": "The next generation of DOES."
-    }, 
+        "skillName": ".Net",
+        "skillId": "dot-net",
+        "categories": ["stacks"]
+    },
     {
-        "age": 12, 
-        "carrier": "AT&amp;T", 
-        "id": "motorola-bravo-with-motoblur", 
-        "imageUrl": "img/skills/motorola-bravo-with-motoblur.0.jpg",
-        "name": "MOTOROLA BRAVO\u2122 with MOTOBLUR\u2122", 
-        "snippet": "An experience to cheer about."
-    }, 
+        "skillName": "Drools",
+        "skillId": "drools",
+        "categories": ["programming languages", "special purpose languages"]
+    },
     {
-        "age": 13, 
-        "carrier": "T-Mobile", 
-        "id": "motorola-defy-with-motoblur", 
-        "imageUrl": "img/skills/motorola-defy-with-motoblur.0.jpg",
-        "name": "Motorola DEFY\u2122 with MOTOBLUR\u2122", 
-        "snippet": "Are you ready for everything life throws your way?"
-    }, 
+        "skillName": "GigaSpaces",
+        "skillId": "gigaspaces",
+        "categories": ["stacks", "cloud", "grid"]
+    },
     {
-        "age": 14, 
-        "carrier": "T-Mobile", 
-        "id": "t-mobile-mytouch-4g", 
-        "imageUrl": "img/skills/t-mobile-mytouch-4g.0.jpg",
-        "name": "T-Mobile myTouch 4G", 
-        "snippet": "The T-Mobile myTouch 4G is a premium smartskill designed to deliver blazing fast 4G speeds so that you can video chat from practically anywhere, with or without Wi-Fi."
-    }, 
+        "skillName": "git",
+        "skillId": "git",
+        "categories": ["tools", "hobbies"]
+    },
     {
-        "age": 15, 
-        "carrier": "US Cellular", 
-        "id": "samsung-mesmerize-a-galaxy-s-skill",
-        "imageUrl": "img/skills/samsung-mesmerize-a-galaxy-s-skill.0.jpg",
-        "name": "Samsung Mesmerize\u2122 a Galaxy S\u2122 skill",
-        "snippet": "The Samsung Mesmerize\u2122 delivers a cinema quality experience like you\u2019ve never seen before. Its innovative 4\u201d touch display technology provides rich picture brilliance,even outdoors"
-    }, 
+        "skillName": "Groovy",
+        "skillId": "groovy",
+        "categories": ["programming languages", "LOY"]
+    },
     {
-        "age": 16, 
-        "carrier": "Sprint", 
-        "id": "sanyo-zio", 
-        "imageUrl": "img/skills/sanyo-zio.0.jpg",
-        "name": "SANYO ZIO", 
-        "snippet": "The Sanyo Zio by Kyocera is an Android smartskill with a combination of ultra-sleek styling, strong performance and unprecedented value."
-    }, 
+        "skillName": "IntelliJ Idea",
+        "skillId": "intellij-idea",
+        "categories": ["tools"]
+    },
     {
-        "age": 17, 
-        "id": "samsung-transform", 
-        "imageUrl": "img/skills/samsung-transform.0.jpg",
-        "name": "Samsung Transform\u2122", 
-        "snippet": "The Samsung Transform\u2122 brings you a fun way to customize your Android powered touch screen skill to just the way you like it through your favorite themed \u201cSprint ID Service Pack\u201d."
-    }, 
+        "skillName": "java",
+        "skillId": "java",
+        "categories": ["programming language"]
+    },
     {
-        "age": 18, 
-        "id": "t-mobile-g2", 
-        "imageUrl": "img/skills/t-mobile-g2.0.jpg",
-        "name": "T-Mobile G2", 
-        "snippet": "The T-Mobile G2 with Google is the first smartskill built for 4G speeds on T-Mobile's new network. Get the information you need, faster than you ever thought possible."
-    }, 
+        "skillName": "Jenkins",
+        "skillId": "jenkins",
+        "categories": ["continuous integration", "tools"]
+    },
     {
-        "age": 19, 
-        "id": "motorola-charm-with-motoblur", 
-        "imageUrl": "img/skills/motorola-charm-with-motoblur.0.jpg",
-        "name": "Motorola CHARM\u2122 with MOTOBLUR\u2122", 
-        "snippet": "Motorola CHARM fits easily in your pocket or palm.  Includes MOTOBLUR service."
+        "skillName":  "Jython",
+        "skillId": "jython",
+        "categories": ["programming languages"]
+    },
+    {
+        "skillName": "Linux Mint",
+        "skillId": "linux-mint",
+        "categories": ["operating systems"]
+    },
+    {
+        "skillName": "Lucene",
+        "skillId": "lucene",
+        "categories": ["stacks"]
+    },
+    {
+        "skillName": "maven",
+        "skillId": "maven",
+        "categories": ["continuous integration", "tools"]
+    },
+    {
+        "skillName": "Netbeans",
+        "skillId": "netbeans",
+        "categories": ["tools"]
+    },
+    {
+        "skillName": "OS X",
+        "skillId": "os-x",
+        "categories": ["operating systems"]
+    },
+    {
+        "skillName": "R, The Programming language",
+        "skillId": "r",
+        "categories": ["programming languages", "special purpose languages"]
+    },
+    {
+        "skillName": "Ruby on Rails",
+        "skillId": "ruby-on-rails",
+        "categories": ["stacks", "LOY"]
+    },
+    {
+        "skillName": "Ruby",
+        "skillId": "ruby",
+        "categories": ["programming languages", "LOY"]
+    },
+    {
+        "skillName": "SOLID code",
+        "skillId": "solid-code",
+        "categories": ["philosophies"]
+    },
+    {
+        "skillName": "Domain Driven Design (DDD)",
+        "skillId": "ddd",
+        "categories": ["philosophies"]
+    },
+    {
+        "skillName": "Spring WS",
+        "skillId": "spring-ws",
+        "categories": ["webservices", "design patterns"]
+    },
+    {
+        "skillName": "Spring",
+        "skillId": "spring",
+        "categories": ["stacks"]
+    },
+    {
+        "skillName": "SQL Server Mgt Studio",
+        "skillId": "sql-server-mgt-studio",
+        "categories": ["tools"]
+    },
+    {
+        "skillId": "sql-server",
+        "skillName": "SQL Server",
+        "categories": ["databases"]
+    },
+    {
+        "skillName": "statistics",
+        "skillId": "statistics",
+        "categories": ["science & math"]
+    },
+    {
+        "skillName": "SuSE linux",
+        "skillId": "suse-linux",
+        "categories": ["operating systems"]
+    },
+    {
+        "skillName": "svn",
+        "skillId": "svn",
+        "categories": ["tools"]
+    },
+    {
+        "skillName": "Swing",
+        "skillId": "swing",
+        "categories": ["stack"]
+    },
+    {
+        "skillName": "testacular",
+        "skillId": "testacular",
+        "categories": ["tools"]
+    },
+    {
+        "skillName": "Lift",
+        "skillId": "lift",
+        "categories": ["stacks", "web"]
+    },
+    {
+        "skillName": "TDD (test first)",
+        "skillId": "tdd-test-first",
+        "categories": ["philosophies"]
+    },
+    {
+        "skillName": "Visual Studio",
+        "skillId": "visual-studio",
+        "categories": ["tools"]
+    },
+    {
+        "skillName": "Windows Connection Framework",
+        "skillId": "WCF",
+        "categories": ["stacks", "web", "webservices"]
+    },
+    {
+        "skillName": "Windows 7",
+        "skillId": "windows-7",
+        "categories": ["operating systems"]
+    },
+    {
+        "skillName": "Windows Server 2003",
+        "skillId": "windows-server-2003",
+        "categories": ["operating systems"]
+    },
+    {
+        "skillName": "Amazon Elastic Compute Cloud",
+        "skillId": "amazon-ec2",
+        "categories": ["stacks", "scalability"]
+    },
+    {
+        "skillName": "Scala",
+        "skillId": "scala",
+        "categories": ["programming languages", "LOY"]
     }
 ]

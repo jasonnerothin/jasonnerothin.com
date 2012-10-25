@@ -8,68 +8,99 @@
     "results":"Delivered.",
     "skills":[
         {
-            "skillId":"java",
-            "categories":["programming languages"]
-        },
-        {
-            "skillId":"R",
-            "categories":["programming languages", "special purpose languages"]
-        },
-        {
-            "skillId":"derby",
-            "categories":["databases"]
-        },
-        {
-            "skillId":"jython",
-            "categories":["programming language"]
-        },
-        {
-            "skillId":"active record",
-            "categories":["design patterns"]
-        },
-        {
-            "skillId":"ruby",
-            "categories":["programming languages"]
-        },
-        {
-            "skillId":"ruby on rails",
-            "categories":["stacks"]
-        },
-        {
-            "skillId":"IntelliJ Idea",
-            "categories":["tools"]
-        },
-        {
-            "skillId":"Netbeans",
+            "skillId":"intellij-idea",
+            "skillName":"IntelliJ Idea",
             "categories":["tools"]
         },
         {
             "skillId":"svn",
+            "skillName":"subversion",
             "categories":["tools"]
         },
         {
+            "skillId":"java",
+            "skillName":"java",
+            "categories":["programming languages"]
+        },
+        {
+            "skillId":"R",
+            "skillName":"The R programming language",
+            "categories":["programming languages", "special purpose languages"]
+        },
+        {
+            "skillId":"derby",
+            "skillName":"Derby",
+            "categories":["databases"]
+        },
+        {
+            "skillId":"jython",
+            "skillName":"Jython",
+            "categories":["programming languages"]
+        },
+        {
+            "skillId":"active-record",
+            "skillName":"Active Record",
+            "categories":["design patterns"]
+        },
+        {
+            "skillId":"ruby",
+            "skillName":"Ruby",
+            "categories":["programming languages","LOY"]
+        },
+        {
+            "skillId":"ruby-on-rails",
+            "skillName":"Ruby on Rails",
+            "categories":["stacks","LOY"]
+        },
+        {
+            "skillId":"intellij-idea",
+            "skillName":"IntelliJ Idea",
+            "categories":["tools"]
+        },
+        {
+            "skillId":"netbeans",
+            "skillName":"Netbeans",
+            "categories":["tools"]
+        },
+        {
+            "skillId":"swing",
+            "skillName":"Swing",
+            "categories":["stack"]
+        },
+        {
             "skillId":"cvs",
+            "skillName":"CVS",
             "categories":["tools"]
         },
         {
             "skillId":"ant",
+            "skillName":"Ant",
             "categories":["tools"]
         },
         {
             "skillId":"lucene",
+            "skillName":"Lucene",
             "categories":["stacks"]
         },
         {
-            "skillId":"Spring",
+            "skillId":"spring",
+            "skillName":"Spring",
             "categories":["tools","design patterns"]
         },
         {
             "skillId":"bioinformatics",
+            "skillName":"Bioinformatics",
             "categories":["science & math"]
         },
         {
             "skillId":"statistics",
+            "skillName":"Statistics",
             "categories":["science & math"]
+        },
+        {
+            "skillId":"suse-linux",
+            "skillName":"SuSE Linux",
+            "categories": ["operating systems"]
         }
     ],
     "startDate": "Mar 2008",
