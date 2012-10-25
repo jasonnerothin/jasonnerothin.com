@@ -20,4 +20,13 @@ angular.module('gig', ['gigServices']).
         otherwise({redirectTo: '/skills'});
 }]);
 
-var myApp = angular.module('myApp', ['skill','gig'])
+angular.module('simple', [])
+    .config(['$routeProvider', function($routeProvider){
+    $routeProvider.
+        when('/bio',{templateUrl:'partials/bio.html',controller:'DefaultCtrl'}).
+        when('/edu',{templateUrl:'partials/edu.html',controller:'DefaultCtrl'}).
+        when('/portfolio',{templateUrl:'partials/portfolio.html', controller:'DefaultCtrl'}).
+        otherwise({redirectTo:'/skills'});
+}]);
+
+var myApp = angular.module('myApp', ['skill','gig','simple']);

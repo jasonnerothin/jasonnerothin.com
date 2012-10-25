@@ -42,3 +42,7 @@ function GigDetailCtrl($scope, $routeParams, Gig){
     });
 }
 //GigDetailCtrl.$inject = ['$scope', '$routeParams', 'Gig'];
+
+function DefaultCtrl($scope,IceCream){ // IceCream is a dummy object
+    $scope.timeRightNow = IceCream.timeRightNow;
+}

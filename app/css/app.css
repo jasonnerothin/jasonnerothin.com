@@ -12,6 +12,11 @@ body {
     margin: 0 0 .75em .35em;
 }
 
+.selected{
+    color:black;
+    text-decoration:underline;
+}
+
 .socialbutts{
     border-top: 1px solid gray;
     margin-bottom: 15px;

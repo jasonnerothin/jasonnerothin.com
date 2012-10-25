@@ -10,28 +10,19 @@
         <!--Sidebar content-->
         <div class="container span2" style="margin-top:1em;">
             <div class="mynav">
-                <a href="#/bio">bio</a>&nbsp;|&nbsp;
+                <a href="#/bio" class="selected">bio</a>&nbsp;|&nbsp;
                 <a href="#/skills">skills</a>&nbsp;|&nbsp;
-                <a href="#/gigs" class="selected">gigs</a>&nbsp;|&nbsp;
+                <a href="#/gigs">gigs</a>&nbsp;|&nbsp;
                 <a href="#/portfolio">portfolio</a>&nbsp;|&nbsp;
                 <a href="#/edu">edu</a>
-            </div>
-            <div>
-                Search: <input ng-model="query">
-                <input type="hidden" ng-model="orderProp" value="Newest">
             </div>
         </div>
 
         <!--Body content-->
         <div class="span10" style="margin-top:1em;">
-            <ul class="skills">
-                <li ng-repeat="gig in gigs | filter:query | orderBy:orderProp" class="thumbnail">
-                    <a href="#/gigs/{{gig.gigId}}" class="thumb">{{gig.title}}</a>
-                    <a href="#/gigs/{{gig.gigId}}">{{gig.employer}}</a>
-                    <p>{{gig.blurb}}</p>
-                </li>
-            </ul>
-
+            <p>Born on a mountain-top in Tennessee, greenest state in the land of the free.</p>
+            <p>Born in the wooods, so he knew every tree.</p>
+            <p>Killed a bear, when he was only three.</p>
         </div>
     </div>
 

@@ -12,26 +12,15 @@
             <div class="mynav">
                 <a href="#/bio">bio</a>&nbsp;|&nbsp;
                 <a href="#/skills">skills</a>&nbsp;|&nbsp;
-                <a href="#/gigs" class="selected">gigs</a>&nbsp;|&nbsp;
-                <a href="#/portfolio">portfolio</a>&nbsp;|&nbsp;
+                <a href="#/gigs">gigs</a>&nbsp;|&nbsp;
+                <a href="#/portfolio" class="selected">portfolio</a>&nbsp;|&nbsp;
                 <a href="#/edu">edu</a>
-            </div>
-            <div>
-                Search: <input ng-model="query">
-                <input type="hidden" ng-model="orderProp" value="Newest">
             </div>
         </div>
 
         <!--Body content-->
         <div class="span10" style="margin-top:1em;">
-            <ul class="skills">
-                <li ng-repeat="gig in gigs | filter:query | orderBy:orderProp" class="thumbnail">
-                    <a href="#/gigs/{{gig.gigId}}" class="thumb">{{gig.title}}</a>
-                    <a href="#/gigs/{{gig.gigId}}">{{gig.employer}}</a>
-                    <p>{{gig.blurb}}</p>
-                </li>
-            </ul>
-
+            <img src="../app/img/painting.jpg" alt="i didn't really paint this..."/>
         </div>
     </div>
 
