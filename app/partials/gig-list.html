@@ -8,12 +8,13 @@
     <div class="row-fluid">
         <!--Sidebar content-->
         <div class="container span2" style="margin-top:1em;">
-            <div style="margin: 0 0 .75em .35em;">
+            <div class="mynav">
                 <!-- todo: want better markup here -->
                 <a href="#" onclick="alert('bio');">bio</a>&nbsp;|&nbsp;
                 <a href="#/skills">skills</a>&nbsp;|&nbsp;
                 <a style="color:black;text-decoration:underline;">gigs</a>&nbsp;|&nbsp;
-                <a href="#" onclick="alert('snippets');">portfolio</a>
+                <a href="#" onclick="alert('snippets');">portfolio</a>&nbsp;|&nbsp;
+                <a href="#">edu</a>
             </div>
             <div>
                 Search: <input ng-model="query">
@@ -21,8 +22,8 @@
             </div>
         </div>
 
+        <!--Body content-->
         <div class="span10" style="margin-top:1em;">
-            <!--Body content-->
             <ul class="skills">
                 <li ng-repeat="gig in gigs | filter:query | orderBy:orderProp" class="thumbnail">
                     <a href="#/gigs/{{gig.gigId}}" class="thumb">{{gig.title}}</a>
@@ -35,7 +36,7 @@
     </div>
 
     <!-- temporary hack until i get around to improving it -->
-    <div class="row-fluid" style="border-top: 1px solid gray; margin-bottom: 15px">
+    <div class="row-fluid,socialbutts">
         <a href="http://www.linkedin.com/in/jasonnerothin" style="margin-left:350px;">
             <img src="http://www.linkedin.com/img/webpromo/btn_profile_greytxt_80x15.png" width="80" height="15" border="0" style="margin:3px 5px 0px 15px" alt="View Jason Nerothin's profile on LinkedIn">
         </a>

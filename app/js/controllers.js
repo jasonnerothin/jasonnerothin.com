@@ -5,7 +5,7 @@
 /* About my valuable skills... */
 function SkillListCtrl($scope, Skill) {
   $scope.skills = Skill.query();
-  $scope.orderProp = 'age';
+  $scope.orderProp = 'skillName';
 }
 //SkillListCtrl.$inject = ['$scope', 'Skill'];
 

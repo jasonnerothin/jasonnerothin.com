@@ -18,37 +18,37 @@ describe('skill App', function() {
 
 
     it('should filter the skill list as user types into the search box', function() {
-      expect(repeater('.skills li').count()).toBe(47);
+      expect(repeater('.span10 p').count()).toBe(47);
 
       input('query').enter('scala');
-      expect(repeater('.skills li').count()).toBe(2);
+      expect(repeater('.span10 p').count()).toBe(2);
 
         input('query').enter('scalab');
-      expect(repeater('.skills li').count()).toBe(1);
+      expect(repeater('.span10 p').count()).toBe(1);
 
       input('query').enter('web');
-      expect(repeater('.skills li').count()).toBe(8);
+      expect(repeater('.span10 p').count()).toBe(8);
     });
 
 
     it('should be possible to control skill order via the drop down select box', function() {
       input('query').enter('proto'); //let's narrow the dataset to make the test assertions shorter
 
-      expect(repeater('.skills li', 'Skill List').column('skill.skillName')).
+      expect(repeater('.span10 p', 'Skill List').column('skill.skillName')).
           toEqual(["prototype.js"]);
 
       select('orderProp').option('Alphabetical');
 
       input('query').enter('java'); // programming languages, for example
 
-      expect(repeater('.skills li', 'Skill List').column('skill.skillName')).
-          toEqual(["JavaScript", "java"]);
+      expect(repeater('.span10 p', 'Skill List').column('skill.skillName')).
+          toEqual(["java","JavaScript"]);
     });
 
 
     it('should render skill specific links', function() {
       input('query').enter('javas');
-      element('.skills li a').click();
+      element('.span10 p a').click();
       expect(browser().location().url()).toBe('/skills/javascript');
     });
 
