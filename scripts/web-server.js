@@ -47,6 +47,7 @@ HttpServer.prototype.start = function(port) {
 HttpServer.prototype.parseUrl_ = function(urlString) {
   var parsed = url.parse(urlString);
   parsed.pathname = url.resolve('/', parsed.pathname);
+//  util.puts('parsed.pathname = ' + parsed.pathname );
   return url.parse(url.format(parsed), true);
 };
 
@@ -90,6 +91,13 @@ StaticServlet.prototype.handleRequest = function(req, res) {
   var path = ('./' + req.url.pathname).replace('//','/').replace(/%(..)/g, function(match, hex){
     return String.fromCharCode(parseInt(hex, 16));
   });
+  var requiredPath = "app/";
+  if( path.indexOf(requiredPath) == -1 ){
+      return self.sendOtherRedirect_(req, res, path, "./app/index.html");
+  }
+  if( path === "/app/" || path === "./app/"){
+      return self.sendOtherRedirect_(req, res, path, "../app/index.html");
+  }
   var parts = path.split('/');
   if (parts[parts.length-1].charAt(0) === '.')
     return self.sendForbidden_(req, res, path);
@@ -112,6 +120,19 @@ StaticServlet.prototype.sendError_ = function(req, res, error) {
   res.write('<pre>' + escapeHtml(util.inspect(error)) + '</pre>');
   util.puts('500 Internal Server Error');
   util.puts(util.inspect(error));
+};
+
+StaticServlet.prototype.sendOtherRedirect_ = function(req, res, path, redirectUrl){
+    res.writeHead(303, {
+      'Content-Type': 'text/html',
+      'Location':redirectUrl
+    });
+    util.puts("redirecting to '" + redirectUrl + "' vs requested path of '" + path +"'.");
+    res.write('<!doctype html>\n');
+    res.write('<title>303 See Other</title>\n');
+    res.write('<h1>See Other</h1>');
+    res.write('<p>The requested URL ' + escapeHtml(path.substring(1)) + ' is being redirected to app/index.html.</p>');
+    res.end();
 };
 
 StaticServlet.prototype.sendMissing_ = function(req, res, path) {
