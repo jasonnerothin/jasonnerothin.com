@@ -1,5 +1,6 @@
 {
-    "skillId":"R",
+    "skillId":"r",
+    "skillName":"R, the programming language",
     "categories":["programming languages", "special purpose languages"],
     "gigs":[{"gigId":"none"}],
     "experience":7

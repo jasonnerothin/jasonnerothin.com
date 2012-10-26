@@ -1,5 +1,6 @@
 {
     "skillId":"ddd",
+    "skillName":"Domain Driven Design",
     "categories":["philosophies"],
     "gigs":[{"gigId":"none"}],
     "experience":3

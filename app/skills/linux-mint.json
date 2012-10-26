@@ -1,5 +1,6 @@
 {
-    "skillId":"Linux Mint",
+    "skillId":"linux-mint",
+    "skillName":"Linux Mint",
     "categories":["operating systems"],
     "gigs":[{"gigId":"none"}],
     "experience":2

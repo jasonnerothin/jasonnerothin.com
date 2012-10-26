@@ -1,5 +1,6 @@
 {
-    "skillId":"GigaSpaces",
+    "skillId":"gigaspaces",
+    "skillName":"GigaSpaces architecture",
     "categories":["stacks", "cloud", "grid"],
     "gigs":[{"gigId":"none"}],
     "experience":2

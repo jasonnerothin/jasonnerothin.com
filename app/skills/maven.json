@@ -1,5 +1,6 @@
 {
     "skillId":"maven",
+    "skillName":"Apache Maven",
     "categories":["continuous integration", "tools"],
     "gigs":[{"gigId":"none"}],
     "experience":4

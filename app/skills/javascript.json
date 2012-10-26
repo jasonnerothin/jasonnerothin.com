@@ -1,6 +1,6 @@
 {
-    "skillName":"javascript",
     "skillId":"javascript",
+    "skillName":"JavaScript",
     "categories":["programming languages", "web"],
     "gigs":[{"gigId":"jasonnerothin.com"}, {"gigId":"pharmacy-onesource"}],
     "experience":6

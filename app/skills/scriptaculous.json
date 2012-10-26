@@ -1,5 +1,6 @@
 {
-    "skillId":"angularjs",
+    "skillId":"scriptaculous",
+    "skillName":"script.aculo.us",
     "categories":["stacks"],
     "gigs":[{"gigId":"jasonnerothin.com"}],
     "experience":4

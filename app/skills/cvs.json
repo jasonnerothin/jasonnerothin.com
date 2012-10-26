@@ -1,5 +1,6 @@
 {
     "skillId":"cvs",
+    "skillName":"CVS",
     "categories":["tools"],
     "gigs":[{"gigId":"none"}],
     "experience":5

@@ -1,5 +1,6 @@
 {
-    "skillId":"OS X",
+    "skillId":"prototype-js",
+    "skillName":"prototype.js",
     "categories":["stacks","web"],
     "gigs":[{"gigId":"jasonnerothin.com"}],
     "experience":6

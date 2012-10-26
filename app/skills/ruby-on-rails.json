@@ -1,5 +1,6 @@
 {
-    "skillId":"ruby on rails",
+    "skillId":"ruby-on-rails",
+    "skillName":"Ruby on Rails",
     "categories":["stacks","LOY"],
     "gigs":[{"gigId":"none"}],
     "experience":1

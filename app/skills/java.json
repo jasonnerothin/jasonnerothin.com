@@ -1,5 +1,6 @@
 {
     "skillId":"java",
+    "skillName":"java",
     "categories":["programming language"],
     "gigs":[{"gigId":"none"}],
     "experience":6

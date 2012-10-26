@@ -1,5 +1,6 @@
 {
     "skillId":"Spring WS",
+    "skillName":"spring-ws",
     "categories":["webservices","design patterns"],
     "gigs":[{"gigId":"none"}],
     "experience":5

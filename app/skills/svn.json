@@ -1,5 +1,6 @@
 {
     "skillId":"svn",
+    "skillName":"subversion",
     "categories":["tools"],
     "gigs":[{"gigId":"none"}],
     "experience":3

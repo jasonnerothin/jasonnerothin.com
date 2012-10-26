@@ -1,5 +1,6 @@
 {
     "skillId":"jython",
+    "skillName":"Jython",
     "categories":["programming languages"],
     "gigs":[{"gigId":"none"}],
     "experience":1

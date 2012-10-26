@@ -1,5 +1,6 @@
 {
     "skillId":"Amazon Elastic Compute Cloud",
+    "skillName":"amazon-ec2",
     "categories":["stacks","scalability"],
     "gigs":[{"gigId":"jasonnerothin.com"}],
     "experience":3

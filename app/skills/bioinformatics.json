@@ -1,5 +1,6 @@
 {
-    "skillId":"bioinformatics",
+    "skillId":"BiX",
+    "skillName":"Bioinformatics",
     "categories":["science & math"],
     "gigs":[{"gigId":"none"}],
     "experience":3
