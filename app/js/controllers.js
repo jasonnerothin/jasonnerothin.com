@@ -4,31 +4,30 @@
 
 /* About my valuable skills... */
 function SkillListCtrl($scope, Skill) {
-  $scope.skills = Skill.query();
-  $scope.orderProp = 'skillName';
+    $scope.skills = Skill.query();
+    $scope.orderProp = 'skillName';
+    $scope.query = "";
 }
-//SkillListCtrl.$inject = ['$scope', 'Skill'];
 
 function SkillDetailCtrl($scope, $routeParams, Skill) {
-  $scope.skill = Skill.get({skillId: $routeParams.skillId}, function(skill) {
-    $scope.skillName = skill.skillName;
-    $scope.skillId = skill.skillId;
-    $scope.experience = skill.experience;
-    $scope.gigs = skill.gigs;
-    $scope.categories = skill.categories;
-  });
+    $scope.skill = Skill.get({skillId:$routeParams.skillId}, function (skill) {
+        $scope.skillName = skill.skillName;
+        $scope.skillId = skill.skillId;
+        $scope.experience = skill.experience;
+        $scope.gigs = skill.gigs;
+        $scope.categories = skill.categories;
+    });
 }
-//SkillDetailCtrl.$inject = ['$scope', '$routeParams', 'Skill'];
-
 
 /* About the great gigs I've worked... */
-function GigListCtrl($scope, Gig){
+function GigListCtrl($scope, Gig) {
     $scope.gigs = Gig.query();
     $scope.orderProp = 'name';
+    $scope.query = "";
 }
-//GigListCtrl.$inject = ['$scope', '$routeParams', 'Gig'];
-function GigDetailCtrl($scope, $routeParams, Gig){
-    $scope.gig = Gig.get({gigId: $routeParams.gigId}, function(gig){
+
+function GigDetailCtrl($scope, $routeParams, Gig) {
+    $scope.gig = Gig.get({gigId:$routeParams.gigId}, function (gig) {
         $scope.gigId = gig.gigId;
         $scope.title = gig.title;
         $scope.employer = gig.employer;
@@ -41,8 +40,12 @@ function GigDetailCtrl($scope, $routeParams, Gig){
         $scope.skills = gig.skills;
     });
 }
-//GigDetailCtrl.$inject = ['$scope', '$routeParams', 'Gig'];
 
-function DefaultCtrl($scope,IceCream){ // IceCream is a dummy object
-    $scope.timeRightNow = IceCream.timeRightNow;
+function BioCtrl($scope) {
+}
+
+function PortfolioCtrl($scope) {
+}
+
+function EduCtrl($scope) {
 }

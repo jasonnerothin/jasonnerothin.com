@@ -7,7 +7,7 @@
 angular.module('skill', ['skillFilters', 'skillServices']).
   config(['$routeProvider', function($routeProvider) {
   $routeProvider.
-      when('/skills', {templateUrl: 'partials/skill-list.html',   controller: 'SkillListCtrl'}).
+      when('/skills', {templateUrl: 'partials/skill-list.html', controller: 'SkillListCtrl'}).
       when('/skills/:skillId', {templateUrl: 'partials/skill-detail.html', controller: 'SkillDetailCtrl'}).
       otherwise({redirectTo: '/skills'});
 }]);
@@ -23,9 +23,9 @@ angular.module('gig', ['gigServices']).
 angular.module('simple', [])
     .config(['$routeProvider', function($routeProvider){
     $routeProvider.
-        when('/bio',{templateUrl:'partials/bio.html',controller:'DefaultCtrl'}).
-        when('/edu',{templateUrl:'partials/edu.html',controller:'DefaultCtrl'}).
-        when('/portfolio',{templateUrl:'partials/portfolio.html', controller:'DefaultCtrl'}).
+        when('/bio',{templateUrl:'partials/bio.html',controller:'BioCtrl'}).
+        when('/edu',{templateUrl:'partials/edu.html',controller:'EduCtrl'}).
+        when('/portfolio',{templateUrl:'partials/portfolio.html', controller:'PortfolioCtrl'}).
         otherwise({redirectTo:'/skills'});
 }]);
 

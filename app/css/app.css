@@ -18,8 +18,7 @@ body {
 }
 
 .socialbutts{
-    border-top: 1px solid gray;
-    margin-bottom: 15px;
+    margin: 15px 0;
 }
 
 .thumb {
@@ -69,7 +68,6 @@ ul.skill-thumbs img {
 ul.skill-thumbs img:hover {
   cursor: pointer;
 }
-
 
 ul.specs {
   clear: both;

@@ -9,6 +9,7 @@ angular.module('skillServices', ['ngResource']).
     query: {method:'GET', params:{skillId:'skills'}, isArray:true}
   });
 });
+
 /* gig related */
 angular.module('gigServices', ['ngResource']).
     factory('Gig', function($resource){
