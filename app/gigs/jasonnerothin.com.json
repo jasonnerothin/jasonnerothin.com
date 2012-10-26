@@ -1,5 +1,6 @@
 {
     "gigId":"jasonnerothin.com",
+    "gigName":"jasonnerothin.com",
     "title":"webmaster",
     "employer":"Superior Biomining, L.L.C.",
     "address":"Madison, WI",
@@ -93,6 +94,6 @@
             "categories":["philosophies"]
         }
     ],
-    "startDate": "Aug 2010",
-    "endDate": null
+    "startDate": "Aug 2008",
+    "endDate": "Oct 2012"
 }
