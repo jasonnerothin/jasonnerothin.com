@@ -6,11 +6,19 @@
 
     <input type="hidden" ng-model="orderProp" value="Newest">
 
-    <ul class="skills">
-        <li ng-repeat="gig in gigs | filter:query | orderBy:orderProp" class="thumbnail">
-            <a href="#/gigs/{{gig.gigId}}" class="thumb">{{gig.title}}</a>
-            <a href="#/gigs/{{gig.gigId}}">{{gig.employer}}</a>
+    <ul class="gigs">
+        <li ng-repeat="gig in gigs | filter:query | orderBy:orderProp">
+            <a href="#/gigs/{{gig.gigId}}">{{gig.title}}</a>
+            <a href="{{gig.employerUrl}}">{{gig.employer}}</a>
+            <p>{{gig.cityState}}</p>
+            <p style="text-decoration:underline">{{gig.result}}</p>
             <p>{{gig.blurb}}</p>
+            <p>Start: {{gig.startDate}}</p>
+            <p>End: {{gig.endDate}}</p>
+            <div class="gigskills">
+                <a href="#/skills/{{skill}}" class="btn-success gigskill" ng-repeat="skill in gig.skills">{{skill}}</a>
+            </div>
+            <a href="#/gigs/{{gig.gigId}}">Details&hellip;</a>
         </li>
     </ul>
 </div>
