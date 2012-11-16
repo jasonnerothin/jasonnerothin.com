@@ -1,302 +1,338 @@
 [
     {
-        "skillId": "angularjs",
-        "skillName": "angular.js",
-        "categories": ["stacks", "web"],
-        "gigs":[
-            {
-                "gigId":"jasonnerothin.com",
-                "gigName":"jasonnerothin.com"
-            }
-        ]
-    },
-    {
-        "skillName": "script.aculo.us",
-        "skillId": "scriptaculous",
-        "categories": ["stacks", "web"],
-        "gigs":[
-            {
-                "gigId":"jasonnerothin.com",
-                "gigName":"jasonnerothin.com"
-            },
-            {
-                "gigId":"roche-nimblegen",
-                "gigName":"Roche Nimblegen"
-            },
-            {
-                "gigId":"gates-business-solutions",
-                "gigName":"Gates Business Solutions"
-            }
-        ]
-    },
-    {
-        "skillName": "prototype.js",
-        "skillId": "prototype.js",
-        "categories": ["stacks", "web"],
+        "skillId":"Windows Server 2003",
+        "skillName":"windows-server-2003",
+        "categories":["operating systems"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "Active Record",
-        "skillId": "active-record",
-        "categories": ["design patterns"],
+        "skillId":"windows-7",
+        "skillName":"Windows 7",
+        "categories":["operating systems"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "Ant",
-        "skillId": "ant",
-        "categories": ["tools"],
+        "skillId":"WCF",
+        "skillName":"Windows Connection Framework",
+        "categories":["webservices"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "bioinformatics",
-        "skillId": "bioinformatics",
-        "categories": ["science & math"],
+        "skillId":"visual-studio",
+        "skillName":"Microsoft Visual Studio 2008/10",
+        "categories":["tools"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "C#",
-        "skillId": "c-sharp",
-        "categories": ["programming languages"],
+        "skillId":"testacular",
+        "skillName":"Testacular",
+        "categories":["tools"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "CVS",
-        "skillId": "cvs",
-        "categories": ["tools"],
+        "skillId":"tdd-test-first",
+        "skillName":"TDD (test first)",
+        "categories":["philosophies"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "Node.js",
-        "skillId": "nodejs",
-        "categories": ["stacks","web"],
+        "skillId":"Swing",
+        "skillName":"The Swing GUI toolkit",
+        "categories":["stack"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "JavaScript",
-        "skillId": "javascript",
-        "categories": ["programming languages","web"],
+        "skillId":"svn",
+        "skillName":"subversion",
+        "categories":["tools"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "Derby",
-        "skillId": "derby",
-        "categories": ["databases"],
+        "skillId":"suse-linux",
+        "skillName":"SuSE linux",
+        "categories":["operating systems"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": ".Net",
-        "skillId": "dot-net",
-        "categories": ["stacks"],
+        "skillId":"statistics",
+        "skillName":"statistics",
+        "categories":["science & math"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "Drools",
-        "skillId": "drools",
-        "categories": ["programming languages", "special purpose languages"],
+        "skillId":"SQL Server",
+        "skillName":null,
+        "categories":["databases"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "GigaSpaces",
-        "skillId": "gigaspaces",
-        "categories": ["stacks", "cloud", "grid"],
+        "skillId":"sql-server-mgt-studio",
+        "skillName":"SQL Server Mgt Studio",
+        "categories":["tools"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "git",
-        "skillId": "git",
-        "categories": ["tools", "hobbies"],
+        "skillId":"spring",
+        "skillName":"The Spring Framework",
+        "categories":["stacks"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "Groovy",
-        "skillId": "groovy",
-        "categories": ["programming languages", "LOY"],
+        "skillId":"Spring WS",
+        "skillName":"spring-ws",
+        "categories":["webservices", "design patterns"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "IntelliJ Idea",
-        "skillId": "intellij-idea",
-        "categories": ["tools"],
+        "skillId":"solid-code",
+        "skillName":"SOLID code",
+        "categories":["philosophies"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "java",
-        "skillId": "java",
-        "categories": ["programming language"],
+        "skillId":"scriptaculous",
+        "skillName":"script.aculo.us",
+        "categories":["stacks"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "Jenkins",
-        "skillId": "jenkins",
-        "categories": ["continuous integration", "tools"],
+        "skillId":"scala",
+        "skillName":"Scala, a scalable programming language",
+        "categories":["programming languages", "LOY"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName":  "Jython",
-        "skillId": "jython",
-        "categories": ["programming languages"],
+        "skillId":"ruby",
+        "skillName":"Ruby",
+        "categories":["programming languages", "LOY"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "Linux Mint",
-        "skillId": "linux-mint",
-        "categories": ["operating systems"],
+        "skillId":"ruby-on-rails",
+        "skillName":"Ruby on Rails",
+        "categories":["stacks", "LOY"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "Lucene",
-        "skillId": "lucene",
-        "categories": ["stacks"],
+        "skillId":"r",
+        "skillName":"R, the programming language",
+        "categories":["programming languages", "special purpose languages"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "maven",
-        "skillId": "maven",
-        "categories": ["continuous integration", "tools"],
+        "skillId":"prototype-js",
+        "skillName":"prototype.js",
+        "categories":["stacks", "web"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "Netbeans",
-        "skillId": "netbeans",
-        "categories": ["tools"],
+        "skillId":"os-x",
+        "skillName":"Mac OS X",
+        "categories":["operating systems"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "OS X",
-        "skillId": "os-x",
-        "categories": ["operating systems"],
+        "skillId":"nodejs",
+        "skillName":"Node.js",
+        "categories":["stacks", "web"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "R, The Programming language",
-        "skillId": "r",
-        "categories": ["programming languages", "special purpose languages"],
+        "skillId":"netbeans",
+        "skillName":"Netbeans",
+        "categories":["tools"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "Ruby on Rails",
-        "skillId": "ruby-on-rails",
-        "categories": ["stacks", "LOY"],
+        "skillId":"mongodb",
+        "skillName":"MongoDB",
+        "categories":["databases"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "Ruby",
-        "skillId": "ruby",
-        "categories": ["programming languages", "LOY"],
+        "skillId":"maven",
+        "skillName":"Apache Maven",
+        "categories":["continuous integration", "tools"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "SOLID code",
-        "skillId": "solid-code",
-        "categories": ["philosophies"],
+        "skillId":"lucene",
+        "skillName":"Apache Lucene",
+        "categories":["stacks"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "Domain Driven Design (DDD)",
-        "skillId": "ddd",
-        "categories": ["philosophies"],
+        "skillId":"linux-mint",
+        "skillName":"Linux Mint",
+        "categories":["operating systems"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "Spring WS",
-        "skillId": "spring-ws",
-        "categories": ["webservices", "design patterns"],
+        "skillId":"lift",
+        "skillName":"Lift",
+        "categories":["stacks", "web"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "Spring",
-        "skillId": "spring",
-        "categories": ["stacks"],
+        "skillId":"jython",
+        "skillName":"Jython",
+        "categories":["programming languages"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "SQL Server Mgt Studio",
-        "skillId": "sql-server-mgt-studio",
-        "categories": ["tools"],
+        "skillId":"jenkins",
+        "skillName":"Jenkins CI",
+        "categories":["continuous integration", "tools"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillId": "sql-server",
-        "skillName": "SQL Server",
-        "categories": ["databases"],
+        "skillId":"javascript",
+        "skillName":"JavaScript",
+        "categories":["programming languages", "web"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "statistics",
-        "skillId": "statistics",
-        "categories": ["science & math"],
+        "skillId":"java",
+        "skillName":"java",
+        "categories":["programming language"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "SuSE linux",
-        "skillId": "suse-linux",
-        "categories": ["operating systems"],
+        "skillId":"IntelliJ Idea",
+        "skillName":"intellij-idea",
+        "categories":["tools"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "svn",
-        "skillId": "svn",
-        "categories": ["tools"],
+        "skillId":"groovy",
+        "skillName":"Groovy",
+        "categories":["programming languages", "LOY"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "Swing",
-        "skillId": "swing",
-        "categories": ["stack"],
+        "skillId":"git",
+        "skillName":"git",
+        "categories":["tools", "hobbies"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "testacular",
-        "skillId": "testacular",
-        "categories": ["tools"],
+        "skillId":"gigaspaces",
+        "skillName":"GigaSpaces architecture",
+        "categories":["stacks", "cloud", "grid"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "Lift",
-        "skillId": "lift",
-        "categories": ["stacks", "web"],
+        "skillId":"Drools",
+        "skillName":"Drools",
+        "categories":["programming languages", "special purpose languages"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "TDD (test first)",
-        "skillId": "tdd-test-first",
-        "categories": ["philosophies"],
+        "skillId":".Net",
+        "skillName":"Microsoft .Net",
+        "categories":["stacks"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "Visual Studio",
-        "skillId": "visual-studio",
-        "categories": ["tools"],
+        "skillId":"derby",
+        "skillName":"Apache Derby",
+        "categories":["databases"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "Windows Connection Framework",
-        "skillId": "WCF",
-        "categories": ["stacks", "web", "webservices"],
+        "skillId":"ddd",
+        "skillName":"Domain Driven Design",
+        "categories":["philosophies"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "Windows 7",
-        "skillId": "windows-7",
-        "categories": ["operating systems"],
+        "skillId":"cvs",
+        "skillName":"CVS",
+        "categories":["tools"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "Windows Server 2003",
-        "skillId": "windows-server-2003",
-        "categories": ["operating systems"],
+        "skillId":"c-sharp",
+        "skillName":"C#",
+        "categories":["programming languages"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "Amazon Elastic Compute Cloud",
-        "skillId": "amazon-ec2",
-        "categories": ["stacks", "scalability"],
+        "skillId":"BiX",
+        "skillName":"Bioinformatics",
+        "categories":["science & math"],
+        "monthsOfExperience":0,
         "gigs":[]
     },
     {
-        "skillName": "Scala",
-        "skillId": "scala",
-        "categories": ["programming languages", "LOY"],
+        "skillId":"ant",
+        "skillName":"Apache Ant",
+        "categories":["tools"],
+        "monthsOfExperience":0,
+        "gigs":[]
+    },
+    {
+        "skillId":"angularjs",
+        "skillName":"AngularJS",
+        "categories":["stacks"],
+        "monthsOfExperience":0,
+        "gigs":[]
+    },
+    {
+        "skillId":"Amazon Elastic Compute Cloud",
+        "skillName":"amazon-ec2",
+        "categories":["stacks", "scalability"],
+        "monthsOfExperience":0,
+        "gigs":[]
+    },
+    {
+        "skillId":"Active Record",
+        "skillName":null,
+        "categories":["design patterns"],
+        "monthsOfExperience":0,
         "gigs":[]
     }
 ]

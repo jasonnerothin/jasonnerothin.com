@@ -1,26 +1,72 @@
 [
     {
-        "gigId":"jasonnerothin.com",
-        "gigName":"jasonnerothin.com",
-        "title":"webmaster",
-        "employer":"jasonnerothin.com",
-        "blurb":"Developed this website, and put it up on EC2.",
-        "age":0
+        "gigId":"ucla",
+        "gigName":"UCLA-DOE Dept of Genomics & Proteomics",
+        "title":"Programmer Analyst IV/DBA",
+        "employer":"University of California, Los Angeles",
+        "blurb":"Provided application and database administration for the Prolinks and DIP\nscientific databases. Developed a AJAX application that enabled curation of protein-protein\ninteraction data in the MIF format.",
+        "cityState":"Los Angeles CA",
+        "methodology":"Cowboy (no)",
+        "result":null,
+        "startDate":1128528000000,
+        "endDate":1194264000000,
+        "durationInMillis":65736000000,
+        "skills":[]
     },
     {
-        "gigId":"pharmacy-onesource",
-        "gigName":"Pharmacy Onesource",
-        "title":"Senior Developer & Independent Consultant",
-        "employer":"Pharmacy Onesource, Inc.",
-        "blurb":"Developed an XML to DRL transpiler that takes legacy SQL-driven business rule metadata and submits it to a massively-parallel rule engine through a Spring web service. Produced functionality for message processing system that is responsible for processing messages from hospital data feeds (HL7).",
-        "age":1
+        "gigId":"gates-biz",
+        "gigName":"Gates Business Solutions Inc.",
+        "title":"Java Programmer",
+        "employer":"Gates Business Solutions Inc.",
+        "blurb":"Developed a custom tag library (JSP) for representing common data types.",
+        "cityState":"Madison WI",
+        "methodology":"waterfall",
+        "result":null,
+        "startDate":1194264000000,
+        "endDate":1205791200000,
+        "durationInMillis":11527200000,
+        "skills":[]
     },
     {
         "gigId":"roche-nimblegen",
-        "gigName":"Roche Nimblegen",
-        "title":"Software Engineer",
-        "employer":"Roche Nimblegen, Inc.",
+        "gigName":"roche-nimblegen",
+        "title":"Software Engineer III",
+        "employer":"Roche Nimblegen Inc.",
         "blurb":"Delivered core functionality for DIVA, a desktop application for analysis of DNA micro-array results. Wrote a binary data engine capable of IO sufficient to power statistical analyses in R for both 32- and 64-bit architectures.",
-        "age":2
+        "cityState":"Madison WI",
+        "methodology":"waterfall",
+        "result":null,
+        "startDate":1205791200000,
+        "endDate":1281963600000,
+        "durationInMillis":76172400000,
+        "skills":[]
+    },
+    {
+        "gigId":"pharmacy-onesource",
+        "gigName":"pharmacy-onesource",
+        "title":"Senior Developer & Independent Consultant",
+        "employer":"Pharmacy Onesource Inc.",
+        "blurb":"Developed an XML to DRL transpiler that takes legacy SQL-driven business rule metadata and submits it to a massively-parallel rule engine through a Spring web service. Produced functionality for message processing system that is responsible for processing messages from hospital data feeds (HL7).",
+        "cityState":"Middleton WI",
+        "methodology":"agile",
+        "result":null,
+        "startDate":1281963600000,
+        "endDate":null,
+        "durationInMillis":71134210333,
+        "skills":[]
+    },
+    {
+        "gigId":"jasonnerothin.com",
+        "gigName":"jasonnerothin.com",
+        "title":"webmaster",
+        "employer":"Superior Biomining LLC",
+        "blurb":"Developed this website, and put it up on EC2.",
+        "cityState":"Madison WI",
+        "methodology":"cowboy",
+        "result":null,
+        "startDate":1351119600000,
+        "endDate":null,
+        "durationInMillis":1978210297,
+        "skills":[]
     }
 ]
