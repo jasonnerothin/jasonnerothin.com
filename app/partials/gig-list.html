@@ -16,7 +16,7 @@
             <p>Start: {{gig.startDate}}</p>
             <p>End: {{gig.endDate}}</p>
             <div class="gigskills">
-                <a href="#/skills/{{skill}}" class="btn-success gigskill" ng-repeat="skill in gig.skills">{{skill}}</a>
+                <a href="#/skills/{{skill}}" class="btn-success gigskill" ng-repeat="skill in gig.skills"><i class="icon-star icon-white"></i>{{skill}}</a>
             </div>
             <a href="#/gigs/{{gig.gigId}}" class="btn-info detail">Details&nbsp;&hellip;</a>
         </li>

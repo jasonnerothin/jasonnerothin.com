@@ -20,14 +20,19 @@ body {
     border:1px dashed gray;
 }
 
-.gigskill{
-    float:left;
-    margin:0.5em 0.5em 0 0;
-    padding:0.2em 0.7em;
-}
 
 .gigskills{
     margin-bottom:.5em;
+}
+
+.gigskill{
+    float:left;
+    margin:0.5em 0.5em 0 0;
+    padding:0.2em 1.0em 0.2em 0.4em;
+}
+
+.gigskill i{
+    margin-right:0.25em;
 }
 
 .detail{
