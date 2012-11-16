@@ -20,6 +20,13 @@ body {
     border:1px dashed gray;
 }
 
+.results i{
+    margin-right:.6em;
+}
+
+.blurb{
+    padding-top:1em;
+}
 
 .gigskills{
     margin-bottom:.5em;
@@ -38,7 +45,7 @@ body {
 .detail{
     float:left;
     clear:left;
-    margin-top:0.5em;
+    margin-top:1em;
     padding:0.2em 0.7em 0.2em 1.5em;
 }
 

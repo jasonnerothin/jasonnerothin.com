@@ -8,13 +8,15 @@
 
     <ul class="gigs">
         <li ng-repeat="gig in gigs | filter:query | orderBy:orderProp">
+
             <a href="#/gigs/{{gig.gigId}}">{{gig.title}}</a>
             <a href="{{gig.employerUrl}}">{{gig.employer}}</a>
             <p>{{gig.cityState}}</p>
-            <p style="text-decoration:underline">{{gig.result}}</p>
-            <p>{{gig.blurb}}</p>
             <p>Start: {{gig.startDate}}</p>
             <p>End: {{gig.endDate}}</p>
+
+            <a class="btn btn-primary results"><i class="icon-hand-right icon-white"></i>{{gig.result}}</a>
+            <p class="lead blurb">{{gig.blurb}}</p>
             <div class="gigskills">
                 <a href="#/skills/{{skill}}" class="btn-success gigskill" ng-repeat="skill in gig.skills"><i class="icon-star icon-white"></i>{{skill}}</a>
             </div>
