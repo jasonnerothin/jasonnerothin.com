@@ -24,23 +24,19 @@
     </div>
 
     <!--Sidebar content-->
-    <div class="row-fluid span3" style="margin-top:0.5em;">
-        <div class="mynav">
-            <a href="#/bio" ng-class="a" ng-click="a='selected';b='';c='';d='';e='';">bio</a>&nbsp;|&nbsp;
-            <a href="#/gigs" ng-class="c" ng-click="a='s';b='';c='selected';d='';e='';">gigs</a>&nbsp;|&nbsp;
-            <a href="#/skills" ng-class="b" ng-click="a='';b='selected';c='';d='';e='';">skills</a>&nbsp;|&nbsp;
-            <a href="#/portfolio" ng-class="d" ng-click="a='';b='';c='';d='selected';e='';">portfolio</a>&nbsp;|&nbsp;
-            <a href="#/edu" ng-class="e" ng-click="a='';b='';c='';d='';e='selected';">edu</a>
-        </div>
-    </div>
+    <a href="#/bio" ng-class="a" ng-click="a='selected';b='';c='';d='';e='';" class="btn-info btn-mini">bio</a>
+    <a href="#/gigs" ng-class="c" ng-click="a='s';b='';c='selected';d='';e='';" class="btn-info btn-mini">gigs</a>
+    <a href="#/skills" ng-class="b" ng-click="a='';b='selected';c='';d='';e='';" class="btn-info btn-mini">skills</a>
+    <a href="#/portfolio" ng-class="d" ng-click="a='';b='';c='';d='selected';e='';" class="btn-info btn-mini">portfolio</a>
+    <a href="#/edu" ng-class="e" ng-click="a='';b='';c='';d='';e='selected';" class="btn-info btn-mini">edu</a>
 
     <!--Body content-->
-    <div class="row-fluid span10" ng-view>
-    </div>
+    <span class="row-fluid" ng-view>
+    </span>
 
     <!-- temporary hack until i get around to improving it -->
     <div class="row-fluid socialbutts">
-        <h1>&nbsp;</h1>
+        <h1 class="cb">&nbsp;</h1>
         <a href="http://www.linkedin.com/in/jasonnerothin">
             <img src="http://www.linkedin.com/img/webpromo/btn_profile_greytxt_80x15.png" width="80" height="15" border="0" style="margin:3px 5px 0px 15px" alt="View Jason Nerothin's profile on LinkedIn">
         </a>

@@ -1,7 +1,34 @@
 /* app css stylesheet */
 
+.fl{
+    float:left;
+}
+.cl{
+    clear:left;
+}
+.fr{
+    float:right;
+}
+.cr{
+    clear:right;
+}
+.cb{
+    clear:both;
+}
+
 body {
     padding-top: 20px;
+}
+
+div.mynav{
+    float:left;
+    clear:left;
+}
+
+div#upright{
+    float:right;
+    clear:right;
+    margin-top:-3.25em;
 }
 
 .skills {
@@ -16,10 +43,22 @@ body {
     float:left;
     width:90%;
     margin: 1em auto;
-    padding: 0.75em 1.5em;
+    padding: 2em;
     border:1px dashed gray;
 }
 
+.gigTitle{
+    float:left;
+    clear:left;
+}
+
+.eUrl{
+    float:left;
+    clear:none;
+}
+a.results{
+    float:right;
+}
 .results i{
     margin-right:.6em;
 }
@@ -28,29 +67,25 @@ body {
     padding-top:1em;
 }
 
+.detail{
+    float:left;
+    clear:both;
+    margin-bottom:1em;
+    padding:0.2em 0.7em 0.2em 1.5em;
+}
+
 .gigskills{
-    margin-bottom:.5em;
+    float:left;
+    clear:left;
 }
 
 .gigskill{
     float:left;
     margin:0.5em 0.5em 0 0;
-    padding:0.2em 1.0em 0.2em 0.4em;
 }
 
 .gigskill i{
     margin-right:0.25em;
-}
-
-.detail{
-    float:left;
-    clear:left;
-    margin-top:1em;
-    padding:0.2em 0.7em 0.2em 1.5em;
-}
-
-.mynav{
-    margin: 0 0 .75em .35em;
 }
 
 .selected{

@@ -1,26 +1,31 @@
 <div class="span10" style="margin-top:1em;" ng-controller="GigListCtrl">
 
-    <div>
-        Search: <input ng-model="query">
+    <div class="form-search" id="upright">
+        Search gigs: <input ng-model="query" class="search-query">
     </div>
 
-    <input type="hidden" ng-model="orderProp" value="Newest">
 
     <ul class="gigs">
         <li ng-repeat="gig in gigs | filter:query | orderBy:orderProp">
 
-            <a href="#/gigs/{{gig.gigId}}">{{gig.title}}</a>
-            <a href="{{gig.employerUrl}}">{{gig.employer}}</a>
-            <p>{{gig.cityState}}</p>
-            <p>Start: {{gig.startDate}}</p>
-            <p>End: {{gig.endDate}}</p>
+            <a href="#/gigs/{{gig.gigId}}" class="gigTitle">{{gig.title}}</a>
+            <a href="{{gig.employerUrl}}" class="eUrl">{{gig.employer}}</a>
+            <a class="btn btn-primary results disabled"><i class="icon-hand-right icon-white"></i>{{gig.result}}</a>
 
-            <a class="btn btn-primary results"><i class="icon-hand-right icon-white"></i>{{gig.result}}</a>
-            <p class="lead blurb">{{gig.blurb}}</p>
-            <div class="gigskills">
-                <a href="#/skills/{{skill}}" class="btn-success gigskill" ng-repeat="skill in gig.skills"><i class="icon-star icon-white"></i>{{skill}}</a>
-            </div>
+            <p class="fl cl">{{gig.cityState}}</p>
+            <p class="fl cl">
+                <span>{{gig.startDate}}&mdash;{{gig.endDate}}</span>
+            </p>
+
+            <p class="fl lead blurb">{{gig.blurb}}</p>
             <a href="#/gigs/{{gig.gigId}}" class="btn-info detail">Details&nbsp;&hellip;</a>
+
+            <div class="gigskills">
+                <a href="#/skills/{{skill}}" class="btn-success btn-mini gigskill" ng-repeat="skill in gig.skills"><i class="icon-star icon-white"></i>{{skill}}</a>
+            </div>
+
         </li>
     </ul>
+    <input type="hidden" ng-model="orderProp" value="Newest">
+
 </div>

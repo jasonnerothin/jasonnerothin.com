@@ -12,7 +12,7 @@
         "startDate":1351119600000,
         "endDate":null,
         "durationInMillis":1978210297,
-        "skills":["git","scala","Lift","javascript","angular.js","json","REST","jetty","sbt","Testacular","scalatest","EC3","SOLID","functional programming"]
+        "skills":["git","scala","Lift","functional programming","javascript","angular.js","json","REST","jetty","sbt","Testacular","scalatest","EC3","SOLID"]
     },
     {
         "gigId":"pharmacy-onesource",
@@ -27,7 +27,7 @@
         "startDate":1281963600000,
         "endDate":null,
         "durationInMillis":71134210333,
-        "skills":["agile","Java","Groovy/Grails","SQL Server","Drools","Hibernate","Gigaspaces","TDD","C#",".NET","MVC","jQuery","IntelliJ Idea","subversion","Visual Studio","git","maven","linux (Mint)","Windows","OSX","DRY","SOLID"]
+        "skills":["agile","Java","Groovy/Grails","grid computing", "JUnit","Drools","Hibernate","Gigaspaces","TDD","C#",".NET","SQL Server","MVC","jQuery","IntelliJ Idea","subversion","Visual Studio","git","maven","linux (Mint)","Windows","OSX","DRY","SOLID","logic programming"]
     },
     {
         "gigId":"roche-nimblegen",
