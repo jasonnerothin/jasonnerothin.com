@@ -30,3 +30,7 @@ angular.module('simple', [])
 }]);
 
 var myApp = angular.module('myApp', ['skill','gig','simple']);
+
+var popout = function(addr){
+    window.open(addr,'howdy','width=800,height=600,top=250,left=150');
+}

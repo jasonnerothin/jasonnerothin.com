@@ -1,5 +1,6 @@
 /* app css stylesheet */
 
+/* general-purpose */
 .fl{
     float:left;
 }
@@ -15,9 +16,31 @@
 .cb{
     clear:both;
 }
+.cn{
+    clear:none;
+}
+
+.selected{
+    text-decoration:underline;
+}
+
+/* main layout */
 
 body {
     padding-top: 20px;
+}
+
+.thumb {
+    float: left;
+    margin: -1em 1em 1.5em 0;
+    padding-bottom: 1em;
+    height: 100px;
+    width: 100px;
+}
+
+div.row-fluid h4{
+    /*text-decoration: blink;*/
+    color:red;
 }
 
 div.mynav{
@@ -25,16 +48,15 @@ div.mynav{
     clear:left;
 }
 
-div#upright{
-    float:right;
-    clear:right;
-    margin-top:-3.25em;
+.socialbutts{
+    margin: 15px 0;
 }
 
-.skills {
-    list-style: none;
+h1 {
+    border-bottom: 1px solid gray;
 }
 
+/* gig-list page */
 .gigs{
     list-style: none;
 }
@@ -50,21 +72,37 @@ div#upright{
 .gigTitle{
     float:left;
     clear:left;
+    text-decoration: underline;
 }
 
-.eUrl{
-    float:left;
-    clear:none;
+a.eUrl{
+    padding-right: 0;
 }
-a.results{
+
+a.eUrl i{
+    margin-left:0.25em;
+}
+
+div#upright{
+    float:right;
+    clear:right;
+    margin-top:-3.25em;
+}
+
+a.result{
     float:right;
 }
-.results i{
+
+.result i{
     margin-right:.6em;
 }
 
+.gigDate{
+    font-size: 9pt;
+}
+
 .blurb{
-    padding-top:1em;
+    padding:0.75em 0 0 0;
 }
 
 .detail{
@@ -88,21 +126,9 @@ a.results{
     margin-right:0.25em;
 }
 
-.selected{
-    color:black;
-    text-decoration:underline;
-}
-
-.socialbutts{
-    margin: 15px 0;
-}
-
-.thumb {
-    float: left;
-    margin: -1em 1em 1.5em 0;
-    padding-bottom: 1em;
-    height: 100px;
-    width: 100px;
+/* skills list */
+.skills {
+    list-style: none;
 }
 
 .skills li {
@@ -145,28 +171,3 @@ ul.skill-thumbs img:hover {
     cursor: pointer;
 }
 
-ul.specs {
-    clear: both;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-ul.specs > li{
-    display: inline-block;
-    width: 200px;
-    vertical-align: top;
-}
-
-ul.specs > li > span{
-    font-weight: bold;
-    font-size: 1.2em;
-}
-
-ul.specs dt {
-    font-weight: bold;
-}
-
-h1 {
-    border-bottom: 1px solid gray;
-}

@@ -24,6 +24,9 @@ function GigListCtrl($scope, Gig) {
     $scope.gigs = Gig.query();
     $scope.orderProp = 'name';
     $scope.query = "";
+    $scope.isOverWith = function(idx){
+        return $scope.gigs[idx].endDate == 0;
+    };
 }
 
 function GigDetailCtrl($scope, $routeParams, Gig) {
