@@ -52,3 +52,6 @@ function PortfolioCtrl($scope) {
 
 function EduCtrl($scope) {
 }
+
+function ContactCtrl($scope) {
+}

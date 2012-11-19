@@ -1,17 +1,20 @@
 <!doctype html>
 <html lang="en" ng-app="myApp">
 <head>
-  <meta charset="utf-8">
-  <title>Jason Nerothin</title>
-  <link rel="stylesheet" href="css/app.css">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <script src="lib/angular/angular.js"></script>
-  <script src="js/app.js"></script>
-  <script src="js/controllers.js"></script>
-  <script src="js/filters.js"></script>
-  <script src="js/services.js"></script>
-  <script src="js/jquery.min.js"></script>
-  <script src="lib/angular/angular-resource.js"></script>
+    <meta charset="utf-8">
+    <title>Jason Nerothin</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- angular js -->
+    <script src="lib/angular/angular.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/filters.js"></script>
+    <script src="js/services.js"></script>
+    <script src="lib/angular/angular-resource.js"></script>
 </head>
 <body>
 
@@ -24,11 +27,14 @@
     </div>
 
     <!--Sidebar content-->
-    <a href="#/bio" ng-class="a" ng-click="a='selected';b='';c='';d='';e='';" class="btn-info btn-mini">bio</a>
-    <a href="#/gigs" ng-class="c" ng-click="a='s';b='';c='selected';d='';e='';" class="btn-info btn-mini">gigs</a>
-    <a href="#/skills" ng-class="b" ng-click="a='';b='selected';c='';d='';e='';" class="btn-info btn-mini">skills</a>
-    <a href="#/portfolio" ng-class="d" ng-click="a='';b='';c='';d='selected';e='';" class="btn-info btn-mini">portfolio</a>
-    <a href="#/edu" ng-class="e" ng-click="a='';b='';c='';d='';e='selected';" class="btn-info btn-mini">edu</a>
+    <div>
+        <a href="#/bio" ng-class="a" ng-click="a='selected';b='';c='';d='';e='';f='';" class="btn-info btn-mini">bio</a>
+        <a href="#/gigs" ng-class="c" ng-click="a='s';b='';c='selected';d='';e='';f='';" class="btn-info btn-mini">gigs</a>
+        <a href="#/skills" ng-class="b" ng-click="a='';b='selected';c='';d='';e=''; f=''" class="btn-info btn-mini">skills</a>
+        <a href="#/portfolio" ng-class="d" ng-click="a='';b='';c='';d='selected';e=''; f=''" class="btn-info btn-mini">portfolio</a>
+        <a href="#/edu" ng-class="e" ng-click="a='';b='';c='';d='';e='selected'; f='';" class="btn-info btn-mini">edu</a>
+        <a href="#/contact" ng-class="f" ng-click="a='';b='';c='';d='';e=''; f='selected';" class="btn-info btn-mini">contact</a>
+    </div>
 
     <!--Body content-->
     <span class="row-fluid" ng-view>
@@ -38,19 +44,24 @@
     <div class="row-fluid socialbutts">
         <h1 class="cb">&nbsp;</h1>
         <a href="http://www.linkedin.com/in/jasonnerothin">
-            <img src="http://www.linkedin.com/img/webpromo/btn_profile_greytxt_80x15.png" width="80" height="15" border="0" style="margin:3px 5px 0px 15px" alt="View Jason Nerothin's profile on LinkedIn">
+            <img src="http://www.linkedin.com/img/webpromo/btn_profile_greytxt_80x15.png" width="80" height="15"
+                 border="0" style="margin:3px 5px 0px 15px" alt="View Jason Nerothin's profile on LinkedIn">
         </a>
         <a href="http://www.facebook.com/jason.nerothin" title="Jason Nerothin">
-            <img src="http://badge.facebook.com/badge/1666973298.3198.931982756.png" style="border: 0px; margin:6px 28px 0px 16px" />
+            <img src="http://badge.facebook.com/badge/1666973298.3198.931982756.png"
+                 style="border: 0px; margin:6px 28px 0px 16px"/>
         </a>
-        <a href="//plus.google.com/117461010737202575238?prsrc=3" rel="publisher" style="text-decoration:none; margin-right: 30px;">
-            <img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:22px;height:22px;"/>
+        <a href="//plus.google.com/117461010737202575238?prsrc=3" rel="publisher"
+           style="text-decoration:none; margin-right: 30px;">
+            <img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+"
+                 style="border:0;width:22px;height:22px;"/>
         </a>
         <a href="http://twitter.com/jasonnerothin">
-            <img src="http://labs.creazy.net/twignature/img/jasonnerothin.gif" alt="twitter / jasonnerothin" />
+            <img src="http://labs.creazy.net/twignature/img/jasonnerothin.gif" alt="twitter / jasonnerothin"/>
         </a>
         <a href="https://github.com/jasonnerothin/angular-phonecat">
-            <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub">
+            <img style="position: absolute; top: 0; right: 0; border: 0;"
+                 src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub">
         </a>
     </div>
 
