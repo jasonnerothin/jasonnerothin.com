@@ -131,6 +131,22 @@ a.result{
     list-style: none;
 }
 
+.skillz{
+    border:1px solid brown;
+}
+
+.lefty{
+    float:left;
+    clear:left;
+    border: 1px solid green;
+}
+
+.righty{
+    float:right;
+    clear:right;
+    border:1px solid blue;
+}
+
 .skills li {
     clear: both;
     height: 100px;

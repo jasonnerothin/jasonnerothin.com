@@ -12,7 +12,7 @@
         "startDate":1281963600000,
         "endDate":0,
         "durationInMillis":71134210333,
-        "skills":["agile","Java","Groovy/Grails","grid computing", "JUnit","Drools","Hibernate","Gigaspaces","TDD","C#",".NET","SQL Server","MVC","jQuery","IntelliJ Idea","subversion","Visual Studio","git","maven","linux (Mint)","Windows","OSX","DRY","SOLID","logic programming"]
+        "skills":["agile","Java","Groovy/Grails","grid computing", "SQL", "JUnit","Drools","Hibernate","Gigaspaces","TDD","C#",".NET","SQL Server","MVC","jQuery","IntelliJ Idea","subversion","Visual Studio","git","maven","linux (Mint)","Windows","OSX","DRY","SOLID","logic programming","EasyMock","Mockito"]
     },
     {
         "gigId":"jasonnerothin.com",

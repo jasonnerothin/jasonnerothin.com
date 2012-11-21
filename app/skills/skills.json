@@ -1,338 +1,408 @@
 [
     {
-        "skillId":"Windows Server 2003",
-        "skillName":"windows-server-2003",
+        "skillId":"windows-server",
+        "skillName":"Windows Server",
         "categories":["operating systems"],
-        "monthsOfExperience":0,
-        "gigs":[]
+        "monthsOfExperience":26,
+        "gigs":["pharmacy-onesource", "jasonnerothin.com", "roche-nimblegen", "gates-biz", "ucla", "uofm"]
     },
     {
         "skillId":"windows-7",
         "skillName":"Windows 7",
         "categories":["operating systems"],
-        "monthsOfExperience":0,
-        "gigs":[]
+        "monthsOfExperience":26,
+        "gigs":["pharmacy-onesource"]
     },
     {
-        "skillId":"WCF",
+        "skillId":"agile",
+        "skillName":"Agile",
+        "infoLink":"http://agilemanifesto.org",
+        "categories":["methodologies"],
+        "monthsOfExperience":26,
+        "gigs":["pharmacy-onesource"]
+    },
+    {
+        "skillId":"mockito",
+        "skillName":"Mockito",
+        "infoLink":"https://code.google.com/p/mockito/",
+        "categories":["stacks", "testing"],
+        "monthsOfExperience":26,
+        "gigs":["pharmacy-onesource"]
+    },
+    {
+        "skillId":"easymock",
+        "skillName":"EasyMock",
+        "infoLink":"http://www.easymock.org",
+        "categories":["stacks", "testing"],
+        "monthsOfExperience":26,
+        "gigs":["pharmacy-onesource"]
+    },
+    {
+        "skillId":"wcf",
         "skillName":"Windows Connection Framework",
         "categories":["webservices"],
-        "monthsOfExperience":0,
-        "gigs":[]
+        "monthsOfExperience":26,
+        "gigs":["pharmacy-onesource"]
     },
     {
         "skillId":"visual-studio",
         "skillName":"Microsoft Visual Studio 2008/10",
-        "categories":["tools"],
-        "monthsOfExperience":0,
-        "gigs":[]
+        "categories":["IDEs"],
+        "monthsOfExperience":26,
+        "gigs":["pharmacy-onesource"]
     },
     {
         "skillId":"testacular",
         "skillName":"Testacular",
-        "categories":["tools"],
-        "monthsOfExperience":0,
-        "gigs":[]
+        "categories":["testing"],
+        "monthsOfExperience":4,
+        "gigs":["jasonnerothin.com"]
     },
     {
-        "skillId":"tdd-test-first",
+        "skillId":"test-first-tdd",
         "skillName":"TDD (test first)",
-        "categories":["philosophies"],
-        "monthsOfExperience":0,
-        "gigs":[]
+        "infoLink":"http://en.wikipedia.org/wiki/Test-driven_development",
+        "categories":["testing", "methodologies"],
+        "monthsOfExperience":26,
+        "gigs":["pharmacy-onesource", "jasonnerothin.com"]
     },
     {
-        "skillId":"Swing",
+        "skillId":"swing",
         "skillName":"The Swing GUI toolkit",
-        "categories":["stack"],
+        "categories":["stacks"],
+        "monthsOfExperience":14,
+        "gigs":["roche-nimblegen"]
+    },
+    {
+        "skillId":"sql",
+        "skillName":"SQL",
+        "categories":["special purpose languages"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["pharmacy-onesource", "jasonnerothin.com", "roche-nimblegen", "gates-biz", "ucla", "uofm"]
     },
     {
         "skillId":"svn",
         "skillName":"subversion",
-        "categories":["tools"],
-        "monthsOfExperience":0,
-        "gigs":[]
+        "categories":["SCM"],
+        "monthsOfExperience":63,
+        "gigs":["pharmacy-onesource", "jasonnerothin.com", "roche-nimblegen", "gates-biz", "ucla", "uofm"]
     },
     {
         "skillId":"suse-linux",
         "skillName":"SuSE linux",
         "categories":["operating systems"],
-        "monthsOfExperience":0,
-        "gigs":[]
+        "monthsOfExperience":26,
+        "gigs":["roche-nimblegen"]
     },
     {
         "skillId":"statistics",
         "skillName":"statistics",
         "categories":["science & math"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["roche-nimblegen", "ucla", "uofm"]
     },
     {
-        "skillId":"SQL Server",
-        "skillName":null,
+        "skillId":"sql-server",
+        "skillName":"SQL Server",
         "categories":["databases"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["pharmacy-onesource"]
     },
     {
         "skillId":"sql-server-mgt-studio",
         "skillName":"SQL Server Mgt Studio",
-        "categories":["tools"],
+        "categories":["IDEs"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["pharmacy-onesource"]
     },
     {
         "skillId":"spring",
         "skillName":"The Spring Framework",
+        "infoLink":"http://www.springsource.org",
         "categories":["stacks"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["pharmacy-onesource", "roche-nimblegen"]
     },
     {
-        "skillId":"Spring WS",
-        "skillName":"spring-ws",
+        "skillId":"spring-ws",
+        "skillName":"Spring Webservices",
+        "infoLink":"http://static.springsource.org/spring-ws/sites/1.5/",
         "categories":["webservices", "design patterns"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["pharmacy-onesource"]
     },
     {
         "skillId":"solid-code",
         "skillName":"SOLID code",
-        "categories":["philosophies"],
+        "infoLink":"http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)",
+        "categories":["design patterns", "methodologies"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["pharmacy-onesource", "jasonnerothin.com", "roche-nimblegen"]
     },
     {
         "skillId":"scriptaculous",
         "skillName":"script.aculo.us",
+        "infoLink":"http://script.aculo.us",
         "categories":["stacks"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["gates-biz", "ucla"]
     },
     {
         "skillId":"scala",
         "skillName":"Scala, a scalable programming language",
-        "categories":["programming languages", "LOY"],
+        "infoLink":"http://www.scala-lang.org",
+        "categories":["scalability", "programming languages", "Language Of The Year"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["jasonnerothin.com"]
     },
     {
         "skillId":"ruby",
         "skillName":"Ruby",
-        "categories":["programming languages", "LOY"],
+        "infoLink":"http://www.ruby-lang.org/en/",
+        "categories":["programming languages", "Language Of The Year"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["roche-nimblegen"]
     },
     {
         "skillId":"ruby-on-rails",
         "skillName":"Ruby on Rails",
-        "categories":["stacks", "LOY"],
+        "infoLink":"http://rubyonrails.org",
+        "categories":["stacks", "Language Of The Year"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["roche-nimblegen"]
     },
     {
         "skillId":"r",
         "skillName":"R, the programming language",
-        "categories":["programming languages", "special purpose languages"],
+        "categories":["special purpose languages"],
+        "infoLink":"http://www.r-project.org",
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["roche-nimblegen"]
     },
     {
         "skillId":"prototype-js",
         "skillName":"prototype.js",
+        "infoLink":"http://prototypejs.org",
         "categories":["stacks", "web"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["jasonnerothin.com", "gates-biz"]
     },
     {
         "skillId":"os-x",
-        "skillName":"Mac OS X",
+        "skillName":"OS X",
         "categories":["operating systems"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["pharmacy-onesource", "jasonnerothin.com"]
     },
     {
         "skillId":"nodejs",
         "skillName":"Node.js",
-        "categories":["stacks", "web"],
+        "infoLink":"nodejs.org",
+        "categories":["stacks"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["jasonnerothin.com"]
     },
     {
         "skillId":"netbeans",
         "skillName":"Netbeans",
-        "categories":["tools"],
+        "categories":["IDEs"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["roche-nimblegen"]
     },
     {
         "skillId":"mongodb",
         "skillName":"MongoDB",
         "categories":["databases"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["jasonnerothin.com"]
     },
     {
         "skillId":"maven",
         "skillName":"Apache Maven",
-        "categories":["continuous integration", "tools"],
+        "categories":["build tools"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["pharmacy-onesource", "jasonnerothin.com", "roche-nimblegen", "gates-biz"]
     },
     {
         "skillId":"lucene",
         "skillName":"Apache Lucene",
         "categories":["stacks"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["roche-nimblegen", "ucla"]
     },
     {
         "skillId":"linux-mint",
         "skillName":"Linux Mint",
         "categories":["operating systems"],
-        "monthsOfExperience":0,
-        "gigs":[]
+        "monthsOfExperience":26,
+        "gigs":["pharmacy-onesource"]
     },
     {
         "skillId":"lift",
         "skillName":"Lift",
-        "categories":["stacks", "web"],
-        "monthsOfExperience":0,
-        "gigs":[]
+        "categories":["stacks"],
+        "monthsOfExperience":4,
+        "gigs":["jasonnerothin.com"]
     },
     {
         "skillId":"jython",
         "skillName":"Jython",
         "categories":["programming languages"],
-        "monthsOfExperience":0,
-        "gigs":[]
+        "monthsOfExperience":23,
+        "gigs":["roche-nimblegen"]
+    },
+    {
+        "skillId":"python",
+        "skillName":"Jython",
+        "categories":["programming languages"],
+        "monthsOfExperience":23,
+        "gigs":["ucla"]
     },
     {
         "skillId":"jenkins",
         "skillName":"Jenkins CI",
         "categories":["continuous integration", "tools"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["pharmacy-onesource", "jasonnerothin.com", "ucla"]
     },
     {
         "skillId":"javascript",
         "skillName":"JavaScript",
         "categories":["programming languages", "web"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["pharmacy-onesource", "jasonnerothin.com", "gates-biz", "ucla", "uofm"]
     },
     {
         "skillId":"java",
         "skillName":"java",
         "categories":["programming language"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["pharmacy-onesource", "jasonnerothin.com", "roche-nimblegen", "gates-biz", "ucla", "uofm"]
     },
     {
         "skillId":"IntelliJ Idea",
         "skillName":"intellij-idea",
         "categories":["tools"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["pharmacy-onesource", "jasonnerothin.com", "roche-nimblegen", "gates-biz", "ucla", "uofm"]
     },
     {
         "skillId":"groovy",
         "skillName":"Groovy",
-        "categories":["programming languages", "LOY"],
+        "categories":["programming languages", "Language Of The Year"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["pharmacy-onesource"]
+    },
+    {
+        "skillId":"groovy-grails",
+        "skillName":"Groovy/Grails",
+        "categories":["stacks"],
+        "monthsOfExperience":0,
+        "gigs":["pharmacy-onesource"]
     },
     {
         "skillId":"git",
         "skillName":"git",
-        "categories":["tools", "hobbies"],
+        "categories":["tools"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["pharmacy-onesource", "jasonnerothin.com"]
     },
     {
         "skillId":"gigaspaces",
         "skillName":"GigaSpaces architecture",
         "categories":["stacks", "cloud", "grid"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["pharmacy-onesource"]
     },
     {
-        "skillId":"Drools",
+        "skillId":"drools",
         "skillName":"Drools",
-        "categories":["programming languages", "special purpose languages"],
+        "categories":["special purpose languages"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["pharmacy-onesource"]
     },
     {
-        "skillId":".Net",
+        "skillId":"junit",
+        "skillName":"JUnit",
+        "categories":["stacks", "testing"],
+        "monthsOfExperience":0,
+        "gigs":["pharmacy-onesource", "roche-nimblegen", "ucla"]
+    },
+    {
+        "skillId":"scalatest",
+        "skillName":"scalatest",
+        "categories":["stacks", "testing"],
+        "monthsOfExperience":4,
+        "gigs":["jasonnerothin.com"]
+    },
+    {
+        "skillId":"dot-net",
         "skillName":"Microsoft .Net",
         "categories":["stacks"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["pharmacy-onesource"]
     },
     {
         "skillId":"derby",
         "skillName":"Apache Derby",
         "categories":["databases"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["pharmacy-onesource", "roche-nimblegen"]
     },
     {
         "skillId":"ddd",
         "skillName":"Domain Driven Design",
         "categories":["philosophies"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["jasonnerothin.com"]
     },
     {
         "skillId":"cvs",
         "skillName":"CVS",
         "categories":["tools"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["roche-nimblegen", "gates-biz", "ucla"]
     },
     {
         "skillId":"c-sharp",
         "skillName":"C#",
         "categories":["programming languages"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["pharmacy-onesource"]
     },
     {
-        "skillId":"BiX",
+        "skillId":"bix",
         "skillName":"Bioinformatics",
         "categories":["science & math"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["roche-nimblegen", "ucla", "uofm"]
     },
     {
         "skillId":"ant",
         "skillName":"Apache Ant",
         "categories":["tools"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["pharmacy-onesource", "gates-biz"]
     },
     {
         "skillId":"angularjs",
         "skillName":"AngularJS",
         "categories":["stacks"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["jasonnerothin.com"]
     },
     {
-        "skillId":"Amazon Elastic Compute Cloud",
-        "skillName":"amazon-ec2",
+        "skillId":"ec2",
+        "skillName":"Amazon EC2",
         "categories":["stacks", "scalability"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["jasonnerothin.com"]
     },
     {
-        "skillId":"Active Record",
-        "skillName":null,
+        "skillId":"active-record",
+        "skillName":"Active Record",
         "categories":["design patterns"],
         "monthsOfExperience":0,
-        "gigs":[]
+        "gigs":["roche-nimblegen"]
     }
 ]

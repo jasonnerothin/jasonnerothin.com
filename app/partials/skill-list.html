@@ -1,16 +1,32 @@
 <div class="span10" style="margin-top:1em;" ng-controller="SkillListCtrl">
 
-    <div>
+    <div class="form-search" id="upright">
         Search: <input ng-model="query">
         Sort by:
         <select ng-model="orderProp">
             <option value="skillName">alphabetical</option>
             <option value="categories">categories</option>
+            <option value="gig">gig</option>
         </select>
     </div>
 
-    <p ng-repeat="skill in skills | filter:query | orderBy:orderProp">
-        <a href="#/skills/{{skill.skillId}}">{{skill.skillName}}</a>
-        <span class="category" ng-repeat="category in skill.categories">{{category}}</span>
-    </p>
+    <div ng-repeat="skill in skills | filter:query | orderBy:orderProp" ng-class="{ righty: rhs(), lefty: lhs(), span4: true, offset1: true }">
+
+        <a href="#/skills/{{skill.skillId}}" class="skillLink">{{skill.skillName}}</a>
+
+        <dl class="categories" ng-show="skill.categories.length > 0">
+            <dt>Categories:</dt>
+            <dd ng-repeat="category in skill.categories">{{category}}</dd>
+        </dl>
+
+        <dl class="usedAt" ng-show="skill.gigs.length > 0">
+            <dt>Used at:</dt>
+            <dd ng-repeat="gig in skill.gigs">{{gig}}</dd>
+        </dl>
+
+        <a href="javascript:void(0);" onclick="popout('{{skill.infoLink}}')" class="fl cl btn-link" ng-show="hasLink(skill)">{{skill.infoLink}}<i class="icon-share" ng-show="hasLink(skill)"></i></a>
+        <!--<div ng-hide="!hasLink(skill)">Fooble</div>-->
+
+    </div>
+
 </div>

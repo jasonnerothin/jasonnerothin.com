@@ -7,6 +7,19 @@ function SkillListCtrl($scope, Skill) {
     $scope.skills = Skill.query();
     $scope.orderProp = 'skillName';
     $scope.query = "";
+    // lhs flips the bit, but rhs does not: this way we can call both per iteration
+    // in ng-class...
+    $scope.ltrSwitch = true;
+    $scope.lhs = function(){
+        $scope.ltrSwitch = !$scope.ltrSwitch;
+        return !$scope.ltrSwitch
+    };
+    $scope.rhs = function(){
+        return !$scope.ltrSwitch;
+    };
+    $scope.hasLink = function(skill){
+        return angular.isDefined(skill.infoLink);
+    };
 }
 
 function SkillDetailCtrl($scope, $routeParams, Skill) {
@@ -16,7 +29,15 @@ function SkillDetailCtrl($scope, $routeParams, Skill) {
         $scope.experience = skill.experience;
         $scope.gigs = skill.gigs;
         $scope.categories = skill.categories;
+        $scope.infoLink = skill.infoLink;
+        $scope.categories = skill.categories;
+        $scope.monthsExperience = skill.monthsExperience;
     });
+    $scope.hasLink = function(){
+        var def = angular.isDefined(Skill.infoLink);
+        var hl = def && Skill.infoLink.length > 0 ;
+        return hl;
+    };
 }
 
 /* About the great gigs I've worked... */
