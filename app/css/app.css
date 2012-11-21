@@ -1,189 +1,159 @@
-/* app css stylesheet */
 
-/* general-purpose */
-.fl{
-    float:left;
+.fl {
+    float: left;
 }
-.cl{
-    clear:left;
+.cl {
+    clear: left;
 }
-.fr{
-    float:right;
+.fr {
+    float: right;
 }
-.cr{
-    clear:right;
+.cr {
+    clear: right;
 }
-.cb{
-    clear:both;
+.cb {
+    clear: both;
 }
-.cn{
-    clear:none;
+.cn {
+    clear: none;
 }
-
-.selected{
-    text-decoration:underline;
+.selected {
+    text-decoration: underline;
 }
-
-/* main layout */
-
 body {
     padding-top: 20px;
 }
-
 .thumb {
     float: left;
+    height: 100px;
     margin: -1em 1em 1.5em 0;
     padding-bottom: 1em;
-    height: 100px;
     width: 100px;
 }
-
-div.row-fluid h4{
-    /*text-decoration: blink;*/
-    color:red;
+div.row-fluid h4 {
+    color: red;
 }
-
-div.mynav{
-    float:left;
-    clear:left;
+div.mynav {
+    clear: left;
+    float: left;
 }
-
-.socialbutts{
+.socialbutts {
     margin: 15px 0;
 }
-
 h1 {
     border-bottom: 1px solid gray;
 }
-
-/* gig-list page */
-.gigs{
-    list-style: none;
+.gigs {
+    list-style: none outside none;
 }
-
-.gigs li{
-    float:left;
-    width:90%;
+.gigs li {
+    border: 1px dashed gray;
+    float: left;
     margin: 1em auto;
     padding: 2em;
-    border:1px dashed gray;
+    width: 90%;
 }
-
-.gigTitle{
-    float:left;
-    clear:left;
+.gigTitle {
+    clear: left;
+    float: left;
     text-decoration: underline;
 }
-
-a.eUrl{
+a.eUrl {
     padding-right: 0;
 }
-
-a.eUrl i{
-    margin-left:0.25em;
+a.eUrl i {
+    margin-left: 0.25em;
 }
-
-div#upright{
-    float:right;
-    clear:right;
-    margin-top:-3.25em;
+div#upright {
+    clear: right;
+    float: right;
+    margin-top: -3.25em;
 }
-
-a.result{
-    float:right;
+a.result {
+    float: right;
 }
-
-.result i{
-    margin-right:.6em;
+.result i {
+    margin-right: 0.6em;
 }
-
-.gigDate{
+.gigDate {
     font-size: 9pt;
 }
-
-.blurb{
-    padding:0.75em 0 0 0;
+.blurb {
+    padding: 0.75em 0 0;
 }
-
-.detail{
-    float:left;
-    clear:both;
-    margin-bottom:1em;
-    padding:0.2em 0.7em 0.2em 1.5em;
-}
-
-.gigskills{
-    float:left;
-    clear:left;
-}
-
-.gigskill{
-    float:left;
-    margin:0.5em 0.5em 0 0;
-}
-
-.gigskill i{
-    margin-right:0.25em;
-}
-
-/* skills list */
-.skills {
-    list-style: none;
-}
-
-.skillz{
-    border:1px solid brown;
-}
-
-.lefty{
-    float:left;
-    clear:left;
-    border: 1px solid green;
-}
-
-.righty{
-    float:right;
-    clear:right;
-    border:1px solid blue;
-}
-
-.skills li {
+.detail {
     clear: both;
-    height: 100px;
-    padding-top: 15px;
-}
-
-/** Detail View **/
-img.skill {
     float: left;
-    border: 1px solid black;
-    margin-right: 3em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
+    padding: 0.2em 0.7em 0.2em 1.5em;
+}
+.gigskills {
+    clear: left;
+    float: left;
+}
+.gigskill {
+    float: left;
+    margin: 0.5em 0.5em 0 0;
+}
+.gigskill i {
+    margin-right: 0.25em;
+}
+.lefty {
+    clear: left;
+    float: left;
+}
+.righty {
+    clear: right;
+    float: right;
+}
+.skill {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #000000 black black;
+    border-image: none;
+    border-right: 1px solid black;
+    border-style: double solid solid;
+    border-width: 3px 1px 1px;
+    height: 215px;
+    margin-bottom: 1em;
+    padding: 1em 1.3em;
+}
+.categories {
+}
+.usedAt a {
+    clear: left;
+    float: left;
+}
+img.skill {
     background-color: white;
-    padding: 2em;
+    border: 1px solid black;
+    float: left;
     height: 400px;
+    margin-bottom: 2em;
+    margin-right: 3em;
+    padding: 2em;
     width: 400px;
 }
-
 ul.skill-thumbs {
+    list-style: none outside none;
     margin: 0;
-    list-style: none;
 }
-
 ul.skill-thumbs li {
+    background-color: white;
     border: 1px solid black;
     display: inline-block;
     margin: 1em;
-    background-color: white;
 }
-
 ul.skill-thumbs img {
     height: 100px;
-    width: 100px;
     padding: 1em;
+    width: 100px;
 }
-
 ul.skill-thumbs img:hover {
     cursor: pointer;
 }
-
+.infoLink i {
+    margin-left: 0.25em;
+}

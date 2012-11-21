@@ -10,7 +10,7 @@
         </select>
     </div>
 
-    <div ng-repeat="skill in skills | filter:query | orderBy:orderProp" ng-class="{ righty: rhs(), lefty: lhs(), span4: true, offset1: true }">
+    <div ng-repeat="skill in skills | filter:query | orderBy:orderProp" ng-class="{ righty: rhs(), lefty: lhs(), span4: true, offset1: true, skill:true }">
 
         <a href="#/skills/{{skill.skillId}}" class="skillLink">{{skill.skillName}}</a>
 
@@ -19,13 +19,13 @@
             <dd ng-repeat="category in skill.categories">{{category}}</dd>
         </dl>
 
-        <dl class="usedAt" ng-show="skill.gigs.length > 0">
-            <dt>Used at:</dt>
-            <dd ng-repeat="gig in skill.gigs">{{gig}}</dd>
-        </dl>
+        <div class="usedAt" ng-show="skill.gigs.length > 0">
+            <div class="fl cb">Used at:</div>
+            <a ng-repeat="gig in skill.gigs" href="#/gigs/{{gig.gigId}}" class="btn-info btn-mini skillgig">{{gig.gigName}}</a>
+        </div>
 
-        <a href="javascript:void(0);" onclick="popout('{{skill.infoLink}}')" class="fl cl btn-link" ng-show="hasLink(skill)">{{skill.infoLink}}<i class="icon-share" ng-show="hasLink(skill)"></i></a>
-        <!--<div ng-hide="!hasLink(skill)">Fooble</div>-->
+        <a href="javascript:void(0);" onclick="popout('{{skill.infoLink}}')" class="fl cl btn-link infoLink" ng-show="hasLink(skill)">more info&hellip;<i class="icon-share" ng-show="hasLink(skill)"></i></a>
+        <!--<a href="javascript:void(0);" onclick="popout('{{skill.infoLink}}')" class="fl cl btn-link infoLink" ng-show="hasLink(skill)">{{skill.infoLink}}<i class="icon-share" ng-show="hasLink(skill)"></i></a>-->
 
     </div>
 
