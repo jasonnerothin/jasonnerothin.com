@@ -12,7 +12,51 @@
         "startDate":1281963600000,
         "endDate":0,
         "durationInMillis":71134210333,
-        "skills":["agile","Java","Groovy/Grails","grid computing", "SQL", "JUnit","Drools","Hibernate","Gigaspaces","TDD","C#",".NET","SQL Server","MVC","jQuery","IntelliJ Idea","subversion","Visual Studio","git","maven","linux (Mint)","Windows","OSX","DRY","SOLID","logic programming","EasyMock","Mockito"]
+        "skills":[
+            {"skillId":"active-record","skillName":"Active Record"}
+            ,{"skillId":"ant","skillName":"Apache Ant"}
+            ,{"skillId":"agile","skillName":"Agile"}
+            ,{"skillId":"c-sharp","skillName":"C#"}
+            ,{"skillId":"dot-net","skillName":".NET"}
+            ,{"skillId":"drools","skillName":"Drools"}
+            ,{"skillId":"dry","skillName":"DRY"}
+            ,{"skillId":"easymock","skillName":"EasyMock"}
+            ,{"skillId":"gigaspaces","skillName":"Gigaspaces architecture"}
+            ,{"skillId":"git","skillName":"git"}
+            ,{"skillId":"grails","skillName":"Grails"}
+            ,{"skillId":"grid-computing","skillName":"grid computing"}
+            ,{"skillId":"groovy","skillName":"Groovy"}
+            ,{"skillId":"h2","skillName":"h2 DB"}
+            ,{"skillId":"hibernate","skillName":"Hibernate"}
+            ,{"skillId":"html","skillName":"HTML"}
+            ,{"skillId":"intellij-idea","skillName":"IntelliJ Idea"}
+            ,{"skillId":"imperative-programming","skillName":"imperative programming"}
+            ,{"skillId":"java","skillName":"Java"}
+            ,{"skillId":"javascript","skillName":"Javascript"}
+            ,{"skillId":"jetty","skillName":"Jetty"}
+            ,{"skillId":"jquery","skillName":"jQuery"}
+            ,{"skillId":"junit","skillName":"JUnit"}
+            ,{"skillId":"mint","skillName":"Mint (linux)"}
+            ,{"skillId":"logic-programming","skillName":"logic programming"}
+            ,{"skillId":"mac-os-x","skillName":"OSX"}
+            ,{"skillId":"mockito","skillName":"Mockito"}
+            ,{"skillId":"mvc","skillName":"MVC"}
+            ,{"skillId":"mvn","skillName":"maven"}
+            ,{"skillId":"rest","skillName":"RESTful webservices"}
+            ,{"skillId":"solid","skillName":"SOLID"}
+            ,{"skillId":"spring","skillName":"Spring Framework"}
+            ,{"skillId":"spring-ws","skillName":"Spring Webservices"}
+            ,{"skillId":"sql","skillName":"SQL"}
+            ,{"skillId":"sql-server","skillName":"SQL Server"}
+            ,{"skillId":"svn","skillName":"subversion"}
+            ,{"skillId":"tomcat","skillName":"Apache Tomcat"}
+            ,{"skillId":"tdd","skillName":"Test Driven Development"}
+            ,{"skillId":"visual-studio","skillName":"Visual Studio"}
+            ,{"skillId":"wcf","skillName":"Windows Connection Framework"}
+            ,{"skillId":"windows-7","skillName":"Windows 7"}
+            ,{"skillId":"xml","skillName":"XML"}
+            ,{"skillId":"yagni","skillName":"YAGNI"}
+        ]
     },
     {
         "gigId":"jasonnerothin.com",
@@ -27,7 +71,28 @@
         "startDate":1351119600000,
         "endDate":0,
         "durationInMillis":1978210297,
-        "skills":["git","scala","Lift","functional programming","javascript","angular.js","json","REST","jetty","sbt","Testacular","scalatest","EC3","SOLID"]
+        "skills":[
+             {"skillId":"angularjs","skillName":"angular.js"}
+            ,{"skillId":"ddd","skillName":"Domain Driven Design"}
+            ,{"skillId":"functional-programming","skillName":"functional programming"}
+            ,{"skillId":"git","skillName":"git"}
+            ,{"skillId":"intellij-idea","skillName":"IntelliJ Idea"}
+            ,{"skillId":"javascript","skillName":"Javascript"}
+            ,{"skillId":"jetty","skillName":"Jetty"}
+            ,{"skillId":"json","skillName":"JSON"}
+            ,{"skillId":"jsonp","skillName":"JSONP"}
+            ,{"skillId":"jquery","skillName":"jQuery"}
+            ,{"skillId":"lift","skillName":"Lift"}
+            ,{"skillId":"mac-os-x","skillName":"OSX"}
+            ,{"skillId":"ubuntu","skillName":"Ubuntu (linux)"}
+            ,{"skillId":"rest","skillName":"RESTful webservices"}
+            ,{"skillId":"scala","skillName":"Scala"}
+            ,{"skillId":"sbt","skillName":"sbt"}
+            ,{"skillId":"testacular","skillName":"Testacular"}
+            ,{"skillId":"scalatest","skillName":"scalatest"}
+            ,{"skillId":"ec3","skillName":"Amazon Elastic Compute Cloud (EC3)"}
+            ,{"skillId":"solid","skillName":"SOLID"}
+        ]
     },
     {
         "gigId":"roche-nimblegen",
@@ -42,7 +107,30 @@
         "startDate":1205791200000,
         "endDate":1281963600000,
         "durationInMillis":76172400000,
-        "skills":[]
+        "skills":[
+             {"skillId":"active-record","skillName":"Active Record"}
+            ,{"skillId":"ant","skillName":"Apache Ant"}
+            ,{"skillId":"bix","skillName":"bioinformatics"}
+            ,{"skillId":"cvs","skillName":"CVS"}
+            ,{"skillId":"derby","skillName":"Apache Derby"}
+            ,{"skillId":"html","skillName":"HTML"}
+            ,{"skillId":"imperative-programming","skillName":"imperative programming"}
+            ,{"skillId":"intellij-idea","skillName":"IntelliJ Idea"}
+            ,{"skillId":"junit","skillName":"JUnit"}
+            ,{"skillId":"java","skillName":"Java"}
+            ,{"skillId":"jython","skillName":"jython"}
+            ,{"skillId":"netbeans","skillName":"Netbeans"}
+            ,{"skillId":"r","skillName":"R, programming language"}
+            ,{"skillId":"rails","skillName":"Ruby on Rails"}
+            ,{"skillId":"ruby","skillName":"Ruby"}
+            ,{"skillId":"spring","skillName":"Spring Framework"}
+            ,{"skillId":"sql","skillName":"SQL"}
+            ,{"skillId":"suse","skillName":"SuSE (linux)"}
+            ,{"skillId":"svn","skillName":"subversion"}
+            ,{"skillId":"swing","skillName":"Swing"}
+            ,{"skillId":"xml","skillName":"XML"}
+            ,{"skillId":"waterfall","skillName":"waterfall"}
+        ]
     },
     {
         "gigId":"gates-biz",
@@ -50,14 +138,28 @@
         "title":"Java Programmer",
         "employer":"Gates Business Solutions Inc.",
         "employerUrl":"http://gatesbiz.com",
-        "blurb":"Developed a custom tag library (JSP) for representing common data types.",
+        "blurb":"Developed a custom tag library (JSP) for representing common data types. Provided application functionality for Performance Claims.",
         "cityState":"Madison WI",
-        "methodology":"waterfall",
+        "methodology":"none",
         "result":"Produced",
         "startDate":1194264000000,
         "endDate":1205791200000,
         "durationInMillis":11527200000,
-        "skills":[]
+        "skills":[
+             {"skillId":"custom-tags","skillName":"custom tags"}
+            ,{"skillId":"cvs","skillName":"CVS"}
+            ,{"skillId":"grid-computing","skillName":"grid computing"}
+            ,{"skillId":"html","skillName":"HTML"}
+            ,{"skillId":"imperative-programming","skillName":"imperative programming"}
+            ,{"skillId":"intellij-idea","skillName":"IntelliJ Idea"}
+            ,{"skillId":"java","skillName":"Java"}
+            ,{"skillId":"jsp","skillName":"JSP"}
+            ,{"skillId":"mvc","skillName":"MVC"}
+            ,{"skillId":"mysql","skillName":"MySQL"}
+            ,{"skillId":"sql","skillName":"SQL"}
+            ,{"skillId":"svn","skillName":"subversion"}
+            ,{"skillId":"xml","skillName":"XML"}
+        ]
     },
     {
         "gigId":"ucla",
@@ -67,12 +169,37 @@
         "employerUrl":"http://www.doe-mbi.ucla.edu",
         "blurb":"Provided application and database administration for the Prolinks and DIP\nscientific databases. Developed an AJAX application that enabled curation of protein-protein\ninteraction data in the MIF format.",
         "cityState":"Los Angeles CA",
-        "methodology":"Cowboy (no)",
+        "methodology":"Cowboy",
         "result":"Published",
         "startDate":1128528000000,
         "endDate":1194264000000,
         "durationInMillis":65736000000,
-        "skills":[]
+        "skills":[
+            {"skillId":"applet","skillName":"Java Applets"}
+            ,{"skillId":"c","skillName":"c programming language"}
+            ,{"skillId":"centos","skillName":"CentOS (linux)"}
+            ,{"skillId":"grid-computing","skillName":"grid computing"}
+            ,{"skillId":"html","skillName":"HTML"}
+            ,{"skillId":"imperative-programming","skillName":"imperative programming"}
+            ,{"skillId":"intellij-idea","skillName":"IntelliJ Idea"}
+            ,{"skillId":"java","skillName":"Java"}
+            ,{"skillId":"javascript","skillName":"Javascript"}
+            ,{"skillId":"jsp","skillName":"JSP"}
+            ,{"skillId":"junit","skillName":"JUnit"}
+            ,{"skillId":"mvc","skillName":"MVC"}
+            ,{"skillId":"mysql","skillName":"MySQL"}
+            ,{"skillId":"perl","skillName":"PERL"}
+            ,{"skillId":"postgres","skillName":"Postgres"}
+            ,{"skillId":"python","skillName":"python"}
+            ,{"skillId":"semantic-web","skillName":"semantic web design"}
+            ,{"skillId":"sql","skillName":"SQL"}
+            ,{"skillId":"struts","skillName":"Struts"}
+            ,{"skillId":"sun-grid-engine","skillName":"Sun Grid Engine"}
+            ,{"skillId":"svn","skillName":"subversion"}
+            ,{"skillId":"tomcat","skillName":"Apache Tomcat"}
+            ,{"skillId":"xml","skillName":"XML"}
+            ,{"skillId":"xslt","skillName":"XSL/T"}
+        ]
     },
     {
         "gigId":"uofm",
@@ -80,12 +207,29 @@
         "title":"Research Investigator",
         "employer":"University of Michigan - Dept of Pharmacy",
         "employerUrl":"http://pharmacy.umich.edu/pharmacy/home",
-        "blurb":"Wrote web application to provide access to the BindingMOAD binding database.",
+        "methodology":"Cowboy",
+        "blurb":"Wrote web application to provide access to the BindingMOAD ligand binding database.",
         "cityState":"Ann Arbor MI",
         "result":"Published",
         "startDate":1128528000000,
         "endDate":1097528000000,
         "durationInMillis":-1,
-        "skills":[]
+        "skills":[
+             {"skillId":"html","skillName":"HTML"}
+            ,{"skillId":"imperative-programming","skillName":"imperative programming"}
+            ,{"skillId":"java","skillName":"Java"}
+            ,{"skillId":"javascript","skillName":"Javascript"}
+            ,{"skillId":"javascript","skillName":"Javascript"}
+            ,{"skillId":"jboss","skillName":"JBoss application server"}
+            ,{"skillId":"jsp","skillName":"JSP"}
+            ,{"skillId":"mvc","skillName":"MVC"}
+            ,{"skillId":"mysql","skillName":"MySQL"}
+            ,{"skillId":"redhat","skillName":"redhat (linux)"}
+            ,{"skillId":"sql","skillName":"SQL"}
+            ,{"skillId":"struts","skillName":"Struts"}
+            ,{"skillId":"webstart","skillName":"java webstart"}
+            ,{"skillId":"xml","skillName":"XML"}
+            ,{"skillId":"xslt","skillName":"XSL/T"}
+        ]
     }
 ]

@@ -17,7 +17,7 @@
             <p class="fl lead blurb">{{gig.blurb}}</p>
             <a href="#/gigs/{{gig.gigId}}" class="btn-info btn-mini detail">More&nbsp;&hellip;</a>
             <div class="gigskills">
-                <a href="#/skills/{{skill}}" class="btn-success btn-mini gigskill" ng-repeat="skill in gig.skills"><i class="icon-star icon-white"></i>{{skill}}</a>
+                <a href="#/skills/{{skill.skillId}}" class="btn-success btn-mini gigskill" ng-repeat="skill in gig.skills"><i class="icon-star icon-white"></i>{{skill.skillName}}</a>
             </div>
         </li>
     </ul>
