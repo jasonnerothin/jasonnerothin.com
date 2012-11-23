@@ -1,12 +1,11 @@
-<h2>{{gig.title}} &mdash; {{gig.employer}}</h2>
-<h4>{{gig.address}} &nbsp; {{gig.startDate}} to {{gig.endDate}}</h4>
+<h2 class="fl cb">{{gig.title}} &mdash; {{gig.employer}}</h2>
+<h4 class="fl cb uc">Under Construction</h4>
 
-<p>Description: {{gig.blurb}}</p>
-<p>Results: {{gig.results}}</p>
-<p>Methodology: {{gig.methodology}}</p>
+<div class="fl cb btn btn-primary">methodology: {{gig.methodology}}</div>
 
-<ul class="skills">
-    <li ng-repeat="skill in gig.skills" class="thumbnail">
-        <a href="#/skills/{{skill.skillId}}">{{skill.skillName}}</a> | categories: {<span ng-repeat="category in skill.categories">{{category}}</span>}
-    </li>
-</ul>
+<div class="fl cb">{{gig.address}}</div>
+<div class="fl cb">{{gig.startDate}} to {{gig.endDate}}</div>
+
+
+<div class="fl cb">Description: {{gig.blurb}}</div>
+<div class="fl cb">Results: {{gig.results}}</div>

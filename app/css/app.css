@@ -40,6 +40,10 @@ h1 {
     border-bottom: 1px solid gray;
 }
 
+h2{
+    float:left;
+}
+
 /* index.html template */
 
 h4.uc{
@@ -48,20 +52,25 @@ h4.uc{
 }
 
 div.mynav {
-    clear: left;
     float: left;
+    clear: left;
 }
+
+div.mynav a.btn-info{
+    padding:0.25em 0.75em;
+}
+
 .socialbutts {
     margin: 15px 0;
 }
 
-/* gig-list.html */
-
 div#upright {
     clear: right;
     float: right;
-    margin-top: -3.25em;
+    margin-top: -2.65em;
 }
+
+/* gig-list.html */
 
 .gigs {
     list-style: none outside none;
