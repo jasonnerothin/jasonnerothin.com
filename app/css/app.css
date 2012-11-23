@@ -1,38 +1,52 @@
+/* general stuff */
 
 .fl {
     float: left;
 }
+
 .cl {
     clear: left;
 }
+
 .fr {
     float: right;
 }
+
 .cr {
     clear: right;
 }
+
 .cb {
     clear: both;
 }
+
 .cn {
     clear: none;
 }
+
+.offset_half{
+    margin-left:50px;
+}
+
 .selected {
     text-decoration: underline;
 }
+
 body {
     padding-top: 20px;
 }
-.thumb {
-    float: left;
-    height: 100px;
-    margin: -1em 1em 1.5em 0;
-    padding-bottom: 1em;
-    width: 100px;
+
+h1 {
+    border-bottom: 1px solid gray;
 }
-div.row-fluid h4 {
+
+/* index.html template */
+
+h4.uc{
     color: red;
+    font-weight: bold;
 }
+
 div.mynav {
     clear: left;
     float: left;
@@ -40,12 +54,19 @@ div.mynav {
 .socialbutts {
     margin: 15px 0;
 }
-h1 {
-    border-bottom: 1px solid gray;
+
+/* gig-list.html */
+
+div#upright {
+    clear: right;
+    float: right;
+    margin-top: -3.25em;
 }
+
 .gigs {
     list-style: none outside none;
 }
+
 .gigs li {
     border: 1px dashed gray;
     float: left;
@@ -53,79 +74,110 @@ h1 {
     padding: 2em;
     width: 90%;
 }
+
 .gigTitle {
     clear: left;
     float: left;
     text-decoration: underline;
 }
+
 a.eUrl {
     padding-right: 0;
 }
+
 a.eUrl i {
     margin-left: 0.25em;
 }
-div#upright {
-    clear: right;
-    float: right;
-    margin-top: -3.25em;
-}
+
+
 a.result {
     float: right;
 }
+
 .result i {
     margin-right: 0.6em;
 }
+
 .gigDate {
     font-size: 9pt;
 }
+
 .blurb {
     padding: 0.75em 0 0;
 }
+
 .detail {
     clear: both;
     float: left;
     margin-bottom: 1em;
     padding: 0.2em 0.7em 0.2em 1.5em;
 }
+
 .gigskills {
     clear: left;
     float: left;
 }
+
 .gigskill {
     float: left;
     margin: 0.5em 0.5em 0 0;
 }
+
 .gigskill i {
     margin-right: 0.25em;
 }
-.lefty {
-    clear: left;
+
+/* skill-list */
+
+.skill{
     float: left;
+    width: 175px;
+    height: 300px;
+    margin:1em 0.75em;
+    padding:1em;
+    border: 1px solid black;
+    border-top: 4px double black;
 }
-.righty {
-    clear: right;
-    float: right;
+
+a.skillgig {
+    float:left;
+    clear:left;
+    margin-top:0.5em;
 }
-.skill {
-    -moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;
-    border-color: #000000 black black;
-    border-image: none;
-    border-right: 1px solid black;
-    border-style: double solid solid;
-    border-width: 3px 1px 1px;
-    height: 215px;
-    margin-bottom: 1em;
-    padding: 1em 1.3em;
-}
+
+
 .categories {
 }
-.usedAt a {
-    clear: left;
-    float: left;
+
+div.usedAt div{
+    float:left;
+    clear:left;
+    font-weight: bold;
 }
+
+.usedAt a {
+    float: left;
+    clear: both;
+}
+
+.infoLink{
+    margin-top:1.5em;
+}
+
+.infoLink i {
+    margin-left: 0.25em;
+}
+
+/* don't know if i need these anymore */
+
+.thumb {
+    float: left;
+    height: 100px;
+    margin: -1em 1em 1.5em 0;
+    padding-bottom: 1em;
+    width: 100px;
+}
+
 img.skill {
     background-color: white;
     border: 1px solid black;
@@ -153,7 +205,4 @@ ul.skill-thumbs img {
 }
 ul.skill-thumbs img:hover {
     cursor: pointer;
-}
-.infoLink i {
-    margin-left: 0.25em;
 }
