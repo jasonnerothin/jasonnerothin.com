@@ -130,6 +130,7 @@
             ,{"skillId":"svn","skillName":"subversion"}
             ,{"skillId":"swing","skillName":"Swing"}
             ,{"skillId":"xml","skillName":"XML"}
+            ,{"skillId":"xpath","skillName":"XPath"}
             ,{"skillId":"waterfall","skillName":"waterfall"}
         ]
     },
@@ -199,6 +200,7 @@
             ,{"skillId":"svn","skillName":"subversion"}
             ,{"skillId":"tomcat","skillName":"Apache Tomcat"}
             ,{"skillId":"xml","skillName":"XML"}
+            ,{"skillId":"xpath","skillName":"XPath"}
             ,{"skillId":"xslt","skillName":"XSL/T"}
         ]
     },
@@ -229,6 +231,7 @@
             ,{"skillId":"struts","skillName":"Struts"}
             ,{"skillId":"webstart","skillName":"java webstart"}
             ,{"skillId":"xml","skillName":"XML"}
+            ,{"skillId":"xpath","skillName":"XPath"}
             ,{"skillId":"xslt","skillName":"XSL/T"}
         ]
     }
