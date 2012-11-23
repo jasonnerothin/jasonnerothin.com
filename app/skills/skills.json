@@ -14,6 +14,13 @@
         "gigs":[{"gigId":"pharmacy-onesource","gigName":"Pharmacy Onesource Inc."}]
     },
     {
+        "skillId":"c",
+        "skillName":"c programming language",
+        "categories":["programming languages"],
+        "monthsOfExperience":23,
+        "gigs":[{"gigId":"ucla","gigName":"UCLA"}]
+    },
+    {
         "skillId":"agile",
         "skillName":"Agile",
         "infoLink":"http://agilemanifesto.org",
@@ -26,7 +33,7 @@
         "skillName":"Mockito",
         "infoLink":"https://code.google.com/p/mockito/",
         "categories":["stacks", "testing"],
-        "monthsOfExperience":26,
+        "monthsOfExperience":44,
         "gigs":[{"gigId":"pharmacy-onesource","gigName":"Pharmacy Onesource Inc."}]
     },
     {
@@ -59,6 +66,13 @@
         "gigs":[{"gigId":"jasonnerothin.com","gigName":"Superior Biomining LLC"}]
     },
     {
+        "skillId":"ddd",
+        "skillName":"Domain Driven Design",
+        "categories":["methodologies"],
+        "monthsOfExperience":4,
+        "gigs":[{"gigId":"jasonnerothin.com","gigName":"Superior Biomining LLC"}]
+    },
+    {
         "skillId":"test-first-tdd",
         "skillName":"TDD (test first)",
         "infoLink":"http://en.wikipedia.org/wiki/Test-driven_development",
@@ -78,7 +92,14 @@
         "skillName":"SQL",
         "categories":["special purpose languages"],
         "monthsOfExperience":0,
-        "gigs":[{"gigId":"pharmacy-onesource","gigName":"Pharmacy Onesource Inc."}, {"gigId":"jasonnerothin.com","gigName":"Superior Biomining LLC"}, {"gigId":"roche-nimblegen","gigName":"Roche Nimblegen Inc."}, {"gigId":"gates-biz","gigName":"Gates Business Solutions Inc."}, {"gigId":"ucla","gigName":"UCLA"}, {"gigId":"uofm","gigName":"U of M"}]
+        "gigs":[{"gigId":"pharmacy-onesource","gigName":"Pharmacy Onesource Inc."}, {"gigId":"jasonnerothin.com","gigName":"Superior Biomining LLC"}, {"gigId":"roche-nimblegen","gigName":"Roche Nimblegen Inc."}, {"gigId":"gates-biz","gigName":"Gates Business Solutions Inc."}, {"gigId":"ucla","gigName":"UCLA"}]
+    },
+    {
+        "skillId":"cvs",
+        "skillName":"CVS",
+        "categories":["SCM"],
+        "monthsOfExperience":43,
+        "gigs":[{"gigId":"roche-nimblegen","gigName":"Roche Nimblegen Inc."}, {"gigId":"gates-biz","gigName":"Gates Business Solutions Inc."}]
     },
     {
         "skillId":"svn",
@@ -148,6 +169,13 @@
         "gigs":[{"gigId":"gates-biz","gigName":"Gates Business Solutions Inc."}, {"gigId":"ucla","gigName":"UCLA"}]
     },
     {
+        "skillId":"custom-tags",
+        "skillName":"custom tag libraries",
+        "categories":["stacks"],
+        "monthsOfExperience":0,
+        "gigs":[{"gigId":"gates-biz","gigName":"Gates Business Solutions Inc."}]
+    },
+    {
         "skillId":"scala",
         "skillName":"Scala, a scalable programming language",
         "infoLink":"http://www.scala-lang.org",
@@ -173,7 +201,7 @@
     },
     {
         "skillId":"r",
-        "skillName":"R, the programming language",
+        "skillName":"R  programming language",
         "categories":["special purpose languages"],
         "infoLink":"http://www.r-project.org",
         "monthsOfExperience":0,
@@ -191,7 +219,7 @@
         "skillId":"os-x",
         "skillName":"OS X",
         "categories":["operating systems"],
-        "monthsOfExperience":0,
+        "monthsOfExperience":14,
         "gigs":[{"gigId":"pharmacy-onesource","gigName":"Pharmacy Onesource Inc."}, {"gigId":"jasonnerothin.com","gigName":"Superior Biomining LLC"}]
     },
     {
@@ -199,28 +227,28 @@
         "skillName":"Node.js",
         "infoLink":"nodejs.org",
         "categories":["stacks"],
-        "monthsOfExperience":0,
+        "monthsOfExperience":4,
         "gigs":[{"gigId":"jasonnerothin.com","gigName":"Superior Biomining LLC"}]
     },
     {
         "skillId":"netbeans",
         "skillName":"Netbeans",
         "categories":["IDEs"],
-        "monthsOfExperience":0,
+        "monthsOfExperience":22,
         "gigs":[{"gigId":"roche-nimblegen","gigName":"Roche Nimblegen Inc."}]
     },
     {
         "skillId":"mongodb",
         "skillName":"MongoDB",
         "categories":["databases"],
-        "monthsOfExperience":0,
+        "monthsOfExperience":4,
         "gigs":[{"gigId":"jasonnerothin.com","gigName":"Superior Biomining LLC"}]
     },
     {
         "skillId":"maven",
         "skillName":"Apache Maven",
         "categories":["build tools"],
-        "monthsOfExperience":0,
+        "monthsOfExperience":42,
         "gigs":[{"gigId":"pharmacy-onesource","gigName":"Pharmacy Onesource Inc."}, {"gigId":"jasonnerothin.com","gigName":"Superior Biomining LLC"}, {"gigId":"roche-nimblegen","gigName":"Roche Nimblegen Inc."}, {"gigId":"gates-biz","gigName":"Gates Business Solutions Inc."}]
     },
     {
@@ -295,7 +323,7 @@
     },
     {
         "skillId":"groovy-grails",
-        "skillName":"Groovy/Grails",
+        "skillName":"Grails",
         "categories":["stacks"],
         "monthsOfExperience":0,
         "gigs":[{"gigId":"pharmacy-onesource","gigName":"Pharmacy Onesource Inc."}]
@@ -311,21 +339,21 @@
         "skillId":"gigaspaces",
         "skillName":"GigaSpaces architecture",
         "categories":["stacks", "cloud", "grid"],
-        "monthsOfExperience":0,
+        "monthsOfExperience":28,
         "gigs":[{"gigId":"pharmacy-onesource","gigName":"Pharmacy Onesource Inc."}]
     },
     {
         "skillId":"drools",
         "skillName":"Drools",
         "categories":["special purpose languages"],
-        "monthsOfExperience":0,
+        "monthsOfExperience":28,
         "gigs":[{"gigId":"pharmacy-onesource","gigName":"Pharmacy Onesource Inc."}]
     },
     {
         "skillId":"junit",
         "skillName":"JUnit",
         "categories":["stacks", "testing"],
-        "monthsOfExperience":0,
+        "monthsOfExperience":61,
         "gigs":[{"gigId":"pharmacy-onesource","gigName":"Pharmacy Onesource Inc."}, {"gigId":"roche-nimblegen","gigName":"Roche Nimblegen Inc."}, {"gigId":"ucla","gigName":"UCLA"}]
     },
     {
@@ -337,9 +365,9 @@
     },
     {
         "skillId":"dot-net",
-        "skillName":"Microsoft .Net",
+        "skillName":".NET",
         "categories":["stacks"],
-        "monthsOfExperience":0,
+        "monthsOfExperience":27,
         "gigs":[{"gigId":"pharmacy-onesource","gigName":"Pharmacy Onesource Inc."}]
     },
     {
@@ -347,21 +375,42 @@
         "skillName":"Apache Derby",
         "categories":["databases"],
         "monthsOfExperience":0,
-        "gigs":[{"gigId":"pharmacy-onesource","gigName":"Pharmacy Onesource Inc."}, {"gigId":"roche-nimblegen","gigName":"Roche Nimblegen Inc."}]
+        "gigs":[{"gigId":"roche-nimblegen","gigName":"Roche Nimblegen Inc."}]
     },
     {
         "skillId":"ddd",
         "skillName":"Domain Driven Design",
-        "categories":["philosophies"],
+        "categories":["methodologies"],
         "monthsOfExperience":0,
         "gigs":[{"gigId":"jasonnerothin.com","gigName":"Superior Biomining LLC"}]
+    },
+    {
+        "skillId":"dry",
+        "skillName":"DRY",
+        "categories":["methodologies"],
+        "monthsOfExperience":0,
+        "gigs":[{"gigId":"jasonnerothin.com","gigName":"Superior Biomining LLC"}]
+    },
+    {
+        "skillId":"yagni",
+        "skillName":"YAGNI",
+        "categories":["methodologies"],
+        "monthsOfExperience":31,
+        "gigs":[{"gigId":"pharmacy-onesource","gigName":"Pharmacy Onesource Inc."},{"gigId":"jasonnerothin.com","gigName":"Superior Biomining LLC"}]
     },
     {
         "skillId":"cvs",
         "skillName":"CVS",
         "categories":["tools"],
-        "monthsOfExperience":0,
-        "gigs":[{"gigId":"roche-nimblegen","gigName":"Roche Nimblegen Inc."}, {"gigId":"gates-biz","gigName":"Gates Business Solutions Inc."}, {"gigId":"ucla","gigName":"UCLA"}]
+        "monthsOfExperience":33,
+        "gigs":[{"gigId":"roche-nimblegen","gigName":"Roche Nimblegen Inc."},{"gigId":"gates-biz","gigName":"Gates Business Solutions Inc."}, {"gigId":"ucla","gigName":"UCLA"}]
+    },
+    {
+        "skillId":"centos",
+        "skillName":"CentOS (linux)",
+        "categories":["operating systems"],
+        "monthsOfExperience":23,
+        "gigs":[{"gigId":"ucla","gigName":"UCLA"}]
     },
     {
         "skillId":"c-sharp",
@@ -385,6 +434,13 @@
         "gigs":[{"gigId":"pharmacy-onesource","gigName":"Pharmacy Onesource Inc."}, {"gigId":"gates-biz","gigName":"Gates Business Solutions Inc."}]
     },
     {
+        "skillId":"applet",
+        "skillName":"Java Applets",
+        "categories":["stacks"],
+        "monthsOfExperience":0,
+        "gigs":[{"gigId":"uofm","gigName":"U of M"}]
+    },
+    {
         "skillId":"angularjs",
         "skillName":"AngularJS",
         "categories":["stacks"],
@@ -392,8 +448,36 @@
         "gigs":[{"gigId":"jasonnerothin.com","gigName":"Superior Biomining LLC"}]
     },
     {
-        "skillId":"ec2",
-        "skillName":"Amazon EC2",
+        "skillId":"functional-programming",
+        "skillName":"functional-programming",
+        "categories":["methodologies","skills"],
+        "monthsOfExperience":0,
+        "gigs":[{"gigId":"jasonnerothin.com","gigName":"Superior Biomining LLC"}]
+    },
+    {
+        "skillId":"imperative-programming",
+        "skillName":"imperative programming",
+        "categories":["methodologies","skills"],
+        "monthsOfExperience":0,
+        "gigs":[{"gigId":"jasonnerothin.com","gigName":"Superior Biomining LLC"}]
+    },
+    {
+        "skillId":"grid computing",
+        "skillName":"grid computing",
+        "categories":["skills"],
+        "monthsOfExperience":0,
+        "gigs":[{"gigId":"jasonnerothin.com","gigName":"Superior Biomining LLC"},{"gigId":"pharmacy-onesource","gigName":"Pharmacy Onesource Inc."}]
+    },
+    {
+        "skillId":"sbt",
+        "skillName":"SBT",
+        "categories":["tools"],
+        "monthsOfExperience":4,
+        "gigs":[{"gigId":"jasonnerothin.com","gigName":"Superior Biomining LLC"}]
+    },
+    {
+        "skillId":"ec3",
+        "skillName":"Amazon Elastic Compute Cloud (EC3)",
         "categories":["stacks", "scalability"],
         "monthsOfExperience":0,
         "gigs":[{"gigId":"jasonnerothin.com","gigName":"Superior Biomining LLC"}]

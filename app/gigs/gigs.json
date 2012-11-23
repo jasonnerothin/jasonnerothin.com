@@ -13,11 +13,10 @@
         "endDate":0,
         "durationInMillis":71134210333,
         "skills":[
-            {"skillId":"active-record","skillName":"Active Record"}
+             {"skillId":"active-record","skillName":"Active Record"}
             ,{"skillId":"ant","skillName":"Apache Ant"}
             ,{"skillId":"agile","skillName":"Agile"}
             ,{"skillId":"c-sharp","skillName":"C#"}
-            ,{"skillId":"dot-net","skillName":".NET"}
             ,{"skillId":"drools","skillName":"Drools"}
             ,{"skillId":"dry","skillName":"DRY"}
             ,{"skillId":"easymock","skillName":"EasyMock"}
@@ -56,6 +55,7 @@
             ,{"skillId":"windows-7","skillName":"Windows 7"}
             ,{"skillId":"xml","skillName":"XML"}
             ,{"skillId":"yagni","skillName":"YAGNI"}
+            ,{"skillId":"dot-net","skillName":".NET"}
         ]
     },
     {
@@ -119,6 +119,7 @@
             ,{"skillId":"junit","skillName":"JUnit"}
             ,{"skillId":"java","skillName":"Java"}
             ,{"skillId":"jython","skillName":"jython"}
+            ,{"skillId":"lucene","skillName":"apache lucene"}
             ,{"skillId":"netbeans","skillName":"Netbeans"}
             ,{"skillId":"r","skillName":"R, programming language"}
             ,{"skillId":"rails","skillName":"Ruby on Rails"}
@@ -218,7 +219,6 @@
              {"skillId":"html","skillName":"HTML"}
             ,{"skillId":"imperative-programming","skillName":"imperative programming"}
             ,{"skillId":"java","skillName":"Java"}
-            ,{"skillId":"javascript","skillName":"Javascript"}
             ,{"skillId":"javascript","skillName":"Javascript"}
             ,{"skillId":"jboss","skillName":"JBoss application server"}
             ,{"skillId":"jsp","skillName":"JSP"}
