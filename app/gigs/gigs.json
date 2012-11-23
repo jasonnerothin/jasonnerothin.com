@@ -90,7 +90,7 @@
             ,{"skillId":"sbt","skillName":"sbt"}
             ,{"skillId":"testacular","skillName":"Testacular"}
             ,{"skillId":"scalatest","skillName":"scalatest"}
-            ,{"skillId":"ec3","skillName":"Amazon Elastic Compute Cloud (EC3)"}
+            ,{"skillId":"ec2","skillName":"Amazon Elastic Compute Cloud (EC2)"}
             ,{"skillId":"solid","skillName":"SOLID"}
         ]
     },
