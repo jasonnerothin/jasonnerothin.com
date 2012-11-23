@@ -14,17 +14,18 @@
 
         <div ng-repeat="skill in skills | filter:query | orderBy:orderProp" class="skill">
 
-            <a href="#/skills/{{skill.skillId}}" class="skillLink">{{skill.skillName}}</a>
-
-            <dl class="categories" ng-show="skill.categories.length > 0">
-                <dt>Categories:</dt>
-                <dd ng-repeat="category in skill.categories">{{category}}</dd>
-            </dl>
+            <a href="#/skills/{{skill.skillId}}" class="skillLink btn btn-primary">{{skill.skillName}}</a>
 
             <div class="usedAt" ng-show="skill.gigs.length > 0">
-                <div class="fl cb">Used at:</div>
+                <div class="fl cb lilbit">Used at:</div>
                 <a ng-repeat="gig in skill.gigs" href="#/gigs/{{gig.gigId}}" class="btn-info btn-mini skillgig">{{gig.gigName}}</a>
             </div>
+
+            <div class="categories" ng-show="skill.categories.length > 0">
+                <div class="fl cb lilbit">Categories:</div>
+                <div ng-repeat="category in skill.categories" class="fl cl btn btn-success btn-mini disabled">{{category}}</div>
+            </div>
+
 
             <a href="javascript:void(0);" onclick="popout('{{skill.infoLink}}')" class="fl cl btn-link infoLink"
                ng-show="hasLink(skill)">more info&hellip;<i class="icon-share" ng-show="hasLink(skill)"></i></a>
