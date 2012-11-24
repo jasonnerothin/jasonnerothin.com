@@ -1,12 +1,14 @@
 {
     "gigId":"pharmacy-onesource",
-    "gigName":"Pharmacy Onesource",
-    "title":"Senior Developer & Independent Contractor",
-    "employer":"Pharmacy Onesource, Inc.",
-    "address":"Middleton, WI",
-    "methodology":"agile",
+    "gigName":"pharmacy-onesource",
+    "title":"Senior Developer & Independent Consultant",
+    "employer":"Pharmacy Onesource Inc.",
+    "employerUrl":"http://pharmacyonesource.com",
     "blurb":"Developed an XML to DRL transpiler that takes legacy SQL-driven business rule metadata and submits it to a massively-parallel rule engine through a Spring web service. Produced functionality for message processing system that is responsible for processing messages from hospital data feeds (HL7).",
-    "results":"&gt;$10M decrease in ongoing operating costs",
-    "startDate": "Aug 2010",
-    "endDate": null
+    "cityState":"Middleton WI",
+    "methodology":"agile",
+    "result":"Delivered",
+    "startDate":1281963600000,
+    "endDate":0,
+    "durationInMillis":71134210333
 }

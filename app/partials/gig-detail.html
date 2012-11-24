@@ -1,11 +1,21 @@
-<h2 class="fl cb">{{gig.title}} &mdash; {{gig.employer}}</h2>
-<h4 class="fl cb uc">Under Construction</h4>
+<div class="gigdetail" ng-controller="GigDetailCtrl">
 
-<div class="fl cb btn btn-primary">methodology: {{gig.methodology}}</div>
+    <div class="badge fl cb">
+        <div class="fl cb">
+            <strong>{{gig.title}} at {{gig.employer}}</strong>
+        </div>
+        <div class="fl cb">
+            <strong>{{gig.cityState}}</strong>
+        </div>
+        <div class="fl cb">
+            {{gig.startDate | date:'MMM y' }} to <span ng-hide="isOverWith()">{{gig.endDate | date:'MMM y' }}</span><span ng-hide="!isOverWith()">present</span>
+        </div>
+    </div>
+    <div class="btn btn-primary btn-mini methodology">methodology: {{gig.methodology}}</div>
 
-<div class="fl cb">{{gig.address}}</div>
-<div class="fl cb">{{gig.startDate}} to {{gig.endDate}}</div>
+    <div class="main lead">
+        <p>{{gig.blurb}}</p>
+    </div>
 
 
-<div class="fl cb">Description: {{gig.blurb}}</div>
-<div class="fl cb">Results: {{gig.results}}</div>
+</div>

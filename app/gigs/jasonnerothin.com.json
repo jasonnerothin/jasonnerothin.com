@@ -1,12 +1,14 @@
 {
     "gigId":"jasonnerothin.com",
     "gigName":"jasonnerothin.com",
-    "title":"webmaster",
-    "employer":"Superior Biomining, L.L.C.",
-    "address":"Madison, WI",
+    "title":"Webmaster",
+    "employer":"Superior Biomining LLC",
+    "employerUrl":"http://jasonnerothin.com",
+    "blurb":"Forked angular.js and Scala Lift frameworks on github, then merged both into a working RESTful JSON-powered web application. You're using the result.",
+    "cityState":"Madison WI",
     "methodology":"cowboy",
-    "blurb":"Developed this website, and put it up on EC2.",
-    "results":"You're looking at it.",
-    "startDate": "Aug 2008",
-    "endDate": "Oct 2012"
+    "result":"Advertised",
+    "startDate":1351119600000,
+    "endDate":0,
+    "durationInMillis":1978210297
 }

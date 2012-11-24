@@ -185,6 +185,22 @@ div.usedAt div{
     margin-left: 0.25em;
 }
 
+/* gig-detail */
+.gigdetail{
+    margin:3.5em 0 0 1em;
+}
+.gigdetail .methodology{
+    float:right;
+    clear:right;
+    margin:1em 0;
+}
+
+.main{
+    float:left;
+    clear:both;
+    margin:1em 0.5em 0 0;
+}
+
 /* don't know if i need these anymore */
 
 .thumb {
