@@ -16,6 +16,38 @@
     margin:1em 0.5em 0 0;
 }
 
-.leadership .heading{
+.main .btn{
+    float:left;
+    clear:both;
 }
+
+.main dl{
+    float:left;
+    clear:left;
+    margin:0.5em;
+}
+
+.main dl dd {
+    margin:0.25em 0.5em 0.5em 0;
+}
+
+.main p{
+    float:left;
+    clear:left;
+    margin:0.5em;
+}
+
+.contributions{
+    float:left;
+    clear:left;
+}
+
+.contributions dd span{
+    margin-right: 0.5em;
+}
+
+.contributions dd span.foo{
+    font-weight: bold;
+}
+
 
