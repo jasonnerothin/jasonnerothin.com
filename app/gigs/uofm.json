@@ -5,7 +5,7 @@
     "employer":"University of Michigan - Dept of Pharmacy",
     "employerUrl":"http://pharmacy.umich.edu/pharmacy/home",
     "methodology":"Cowboy",
-    "blurb":"Wrote web application to provide access to the BindingMOAD ligand binding database.",
+    "blurb":"Architected, developed and deployed a Struts-powered web application that provides a web front-end (http://bindingmoad.org/) to highly-curated protein binding data.",
     "cityState":"Ann Arbor MI",
     "result":"Published",
     "startDate":1128528000000,
