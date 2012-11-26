@@ -10,5 +10,34 @@
     "result":"Advertised",
     "startDate":1351119600000,
     "endDate":0,
-    "durationInMillis":1978210297
+    "durationInMillis":1978210297,
+    "contributions":[
+        {
+            "name":"Forked",
+            "description":"angular.js and the Lift web framework on github, then modified them my purposes."
+        },
+        {
+            "name":"Architected",
+            "description":"Lift serves as a RESTful web service which serves up JSON from MongoDB. Angular.js provides lightweight, bi-directional data binding in the browser."
+        },
+        {
+            "name":"Authored",
+            "description":"a functional program, written in Scala."
+        },
+        {
+            "name":"Used",
+            "description":"best of breed tool sets, including Jackson (JSON mapper), angular.js (Node.js template framework with DI support), MongoDB (an \"infinitely\" scalable NoSQL database), and Lift (a scala web application framework)."
+        },
+        {
+            "name":"Learned",
+            "description":"on the fly, testing first as a means of learning towards the correct implementation."
+        },
+        {
+            "name":"Tested",
+            "description":"continuously, both on the front-end and during server development, as well as end-to-end with Testacular."
+        }
+    ],
+    "sdlcProcess":"Cowboy",
+    "team":"I'm the chief cook and bottle-washer."
+
 }
