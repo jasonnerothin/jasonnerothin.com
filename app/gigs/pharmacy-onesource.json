@@ -10,5 +10,33 @@
     "result":"Delivered",
     "startDate":1281963600000,
     "endDate":0,
-    "durationInMillis":71134210333
+    "durationInMillis":71134210333,
+    "team":"Worked on a core team of 4-5 developers, 3 QA pros and 1 BA.",
+    "sdlcProcess":"Process is an adaptation of Scrum, on a two-week iteration schedule. Organized around bi-weekly delivery showcase and estimation meetings on alternating weeks. Process is managed in Mingle, an agile management application. Agile had management and executive-level buy-in, including a C-level Project Management Officer.",
+    "contributions":[
+        {
+            "name":"Transpiler",
+            "description":"Designed, prototyped and shipped initial design of an XML-to-DRL transpiler. The transpiler is a key component in the overall system, in that it consumed business rule metadata in a .NET application (legacy XML format) and produced a compilable DRL (drools) message that is consumed by a spring-powered webservice and broadcast to the grid. Modularity and flexibility of the design led to efficient hand-off to co-workers such that story delivery was achievable ahead of schedule."
+        },
+        {
+            "name":"Story Delivery",
+            "description":"Consistently delivered on committed stories, iteration after iteration. Provided application functionality for Hydra message processing, which consumes HL7 message data from a SQL server database (using Hibernate), performs business logic (using Drools and java functionality), writes it to a read through cache (GigaSpaces) and persists the results back to application databases (hibernate)."
+        },
+        {
+            "name":"Spring WebServices",
+            "description":"Designed, developed and promulgated the development of Design By Contract webservices (Spring)."
+        },
+        {
+            "name":"Build Guy",
+            "description":"Replaced the legacy ant build with maven. Provided deployment automation to multiple environments (DEV, QA, test), test profiling and dependency management."
+        }
+    ],
+    "leadership":[
+        "Introduced lightning talks, frequently presenting at group meetings.",
+        "Introduced open space meetings, a new approach to business meetings that was used for \"training day\".",
+        "Demonstrated and promoted the use Spring dependency injection within the codebase.",
+        "Demonstrated and encouraged the use of a consistent coding style, which is now used by the team.",
+        "Tirelessly performed and promoted best development and agile practices."
+    ]
+
 }

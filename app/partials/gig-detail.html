@@ -14,7 +14,30 @@
     <div class="btn btn-primary btn-mini methodology">methodology: {{gig.methodology}}</div>
 
     <div class="main lead">
-        <p>{{gig.blurb}}</p>
+
+        <p ng-show="!contributed(gig)" class="blurb">{{gig.blurb}}</p>
+
+        <dl ng-show="contributed(gig)" class="contributions">
+            <dt>Key contributions:</dt>
+            <dd ng-repeat="contrib in gig.contributions">
+                <div>{{$index + 1}}. {{contrib.name}}</div>
+                <div>{{contrib.description}}</div>
+            </dd>
+        </dl>
+
+        <dl ng-show="lead()" class="leadership">
+            <dt class="heading">Leadership:</dt>
+            <dd ng-repeat="leadership in gig.leadership">{{$index + 1}}. {{leadership}}</dd>
+        </dl>
+
+        <p ng-show="sdlc()" class="sdlcProcess">
+            {{gig.sdlcProcess}}
+        </p>
+
+        <p ng-show="team()" class="team">
+            {{gig.team}}
+        </p>
+
     </div>
 
 

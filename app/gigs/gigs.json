@@ -64,6 +64,7 @@
         "title":"Webmaster",
         "employer":"Superior Biomining LLC",
         "employerUrl":"http://jasonnerothin.com",
+        "sitesUrlForPossibleFutureUse":"https://sites.google.com/a/superiorbiomining.com/superior-biomining-llc/home",
         "blurb":"Forked angular.js and Scala Lift frameworks on github, then merged both into a working RESTful JSON-powered web application. You're using the result.",
         "cityState":"Madison WI",
         "methodology":"cowboy",

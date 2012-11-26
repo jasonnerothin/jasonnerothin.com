@@ -1,0 +1,21 @@
+/* gig-detail.css */
+
+.gigdetail{
+    margin:3.5em 0 0 1em;
+}
+
+.gigdetail .methodology{
+    float:right;
+    clear:right;
+    margin:1em 0;
+}
+
+.main{
+    float:left;
+    clear:both;
+    margin:1em 0.5em 0 0;
+}
+
+.leadership .heading{
+}
+
