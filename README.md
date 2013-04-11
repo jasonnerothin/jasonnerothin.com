@@ -2,7 +2,7 @@
 
 ## Overview
 
-This application has been hi-jacked for purposes of building out jasonnerothin.com.
+This application has been hi-jacked for purposes of building out jasonnerothin.com. There is a corresponding lift/mongo powered backend project that I'm keeping private for the time-being. This branch works out of the box, powered by node-served static json files (as in the original).
 
 ## Prerequisites
 
