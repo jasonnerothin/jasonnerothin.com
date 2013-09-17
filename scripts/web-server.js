@@ -83,7 +83,8 @@ StaticServlet.MimeMap = {
   'jpeg': 'image/jpeg',
   'gif': 'image/gif',
   'png': 'image/png',
-  'svg': 'image/svg+xml'
+  'svg': 'image/svg+xml',
+  'pdf': 'application/pdf'
 };
 
 StaticServlet.prototype.handleRequest = function(req, res) {

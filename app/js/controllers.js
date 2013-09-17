@@ -110,3 +110,6 @@ function EduCtrl($scope) {
 
 function ContactCtrl($scope) {
 }
+
+function ResumeCtrl($scope) {
+}
