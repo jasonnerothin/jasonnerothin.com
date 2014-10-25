@@ -1,0 +1,25 @@
+/* general stuff */
+
+.fl {
+    float: left;
+}
+
+.cl {
+    clear: left;
+}
+
+.fr {
+    float: right;
+}
+
+.cr {
+    clear: right;
+}
+
+.cb {
+    clear: both;
+}
+
+.cn {
+    clear: none;
+}
